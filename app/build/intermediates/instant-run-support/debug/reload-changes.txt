@@ -1,0 +1,3 @@
+CHANGED,F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\lenovo\demo_grideview_scoreview\UiActivity\ScannerActivity$1$override.class
+CHANGED,F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\lenovo\demo_grideview_scoreview\UiActivity\ScannerActivity$override.class

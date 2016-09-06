@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+            android:text="其实AS基于IntelliJ IDEA，所有IntelliJ IDEA的主题AS都可以用,推荐一个IntelliJ IDEA主题网站，Color Themes，主题数量非常多，下载之后import到AS即可。在上面下载的主题全都是免费的，同时也是其他AS使用者自己上存上来分享给大家的，所以有需要的朋友可以自己看看。不过该网站要翻墙可能才能看到，大概截图我在下面放出来。而楼主只选了两个自己比较喜欢而且人气也比较高的来下载，若有其他想要楼主帮忙下载的也可以提出来，有空会帮大家下载。"
+            android:textColor="#324"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/image_main"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/photo1" />
+
+        <!--<com.example.lenovo.demo_grideview_scoreview.UiActivity.NoScrollGridView-->
+        <!--android:id="@+id/gview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:cacheColorHint="#0000"-->
+        <!--android:columnWidth="80dp"-->
+        <!--android:gravity="center"-->
+        <!--android:numColumns="3"-->
+        <!--android:padding="12dp"-->
+        <!--android:scrollbars="none"-->
+        <!--android:stretchMode="columnWidth"-->
+        <!--android:verticalSpacing="8dp" /> -->
+
+        <com.example.lenovo.demo_grideview_scoreview.UiActivity.NoScrollGridView
+            android:id="@+id/gview_first"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:cacheColorHint="#0000"
+            android:columnWidth="80dp"
+            android:gravity="center"
+            android:horizontalSpacing="3dp"
+            android:numColumns="3"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="3dp" />
+        <!--android:horizontalSpacing="2dp"两列之间的间距-->
+        <!--android:verticalSpacing="2dp"两列之间的间距-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF441166"
+            android:text="上面的条目选中以后，下面的凸凹木是可以多选的，你可以尝试一下哦！嘻嘻"
+            android:background="#996CFBFE"
+            android:textSize="20sp" />
+
+        <com.example.lenovo.demo_grideview_scoreview.UiActivity.NoScrollGridView
+            android:id="@+id/gview_second"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:cacheColorHint="#0000"
+            android:columnWidth="80dp"
+            android:listSelector="@android:color/transparent"
+            android:gravity="center"
+            android:horizontalSpacing="3dp"
+            android:numColumns="3"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="3dp" />
+  <Button
+      android:id="@+id/button_main"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#69090402"
+      android:textColor="#FFF"
+      android:textSize="18sp"
+      android:padding="8dp"
+      android:text="我是文字对其测试界面"/>
+        <Button
+            android:layout_marginTop="12dp"
+            android:id="@+id/button_code_scanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#69090402"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="仿微信扫一扫"/>
+    </LinearLayout>
+</ScrollView>

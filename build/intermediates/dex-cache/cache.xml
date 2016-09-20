@@ -1,3 +1,187 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_549888563b1090176af81b23fefde0497222385c\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_3352542cf47c30f4ac443ef6a50a129f1868ab03\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_9276b6ab4e24933c688733b2ae0d719dff79a02a\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_8d446efacae6cda9343a781ce6b5e704367ffd82\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.0.1\345b89f45d02d8b09400b472fab7b7e38f4ede1f\butterknife-annotations-8.0.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.0.1_3dbb2a8e5af33d30dc9813d6e807263b19c3d665\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_1b4d5a587b55e06042ef2e0563dcc6e9e5f49cb2\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_8df75e5c6547025e56e8ac4a9ed5b0486b5c53db\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_41aac60b8e0a9ddd43cb27e6f28480101da2a9f6\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\cn.bingoogolapple\bga-qrcodecore\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d6ca7d9db25605c0fc94cdaf6d3a93c42b81e0f5">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.bingoogolapple-bga-qrcodecore-1.1.0_e57ff9dd6d2de9edead38eb88aa3b43c8db2b0a9\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.0_ea5e0ca322faed5b5676d94a9466ef81b0052beb\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_2dcdbf22002e0892735de26b9ade128e70536b06\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_392fd7365d156c37f0259ef2f464b4dbb86cf3d1\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_69ec9a2264170c0f2a01e92f9de809dbea7f4621\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.jaredrummler\material-spinner\1.0.4\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e1e11f788f45c9dd07ecd0600ffae082d34daf2e">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jaredrummler-material-spinner-1.0.4_f8cf32314d1699acca92eeb4628e54cedfa97aae\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_2ca0c1a0019fa4a84526779c78b7c0fd8328c8a5\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_40d0a014fe68ee7078a858e8b245452bc1fe5da8\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_3c78d8f631e1d2f1ee1d691065de7d67a0b9caa6\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e80d440906b7eccbce91c9c9b55e69ce0f88a5ef">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0048deffcf863e848d685f98a81ce6c30bc61d9e\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\cn.bingoogolapple\bga-zxing\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="5c0cd885552d8268e437a202e2660196d58e7b4e">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.bingoogolapple-bga-zxing-1.1.0_287d4c4d7810e4a66a0468164936929a0cfd5f92\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_376f30350fea4529ba876d72c7b00f9a80450377\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_0f0f1c0e62bad7293a810e1e60ecd5f8d995faab\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="74ca46e7da11e3d065eb64cdbe6568a7ed74c211">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.0.1_d6b6505c9ed6e452072702a17bdd7ac115a0de85\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_a37accecf6a7566581c59ba374e5c693bf367b73\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_cbd09667c844cddab465010b644d8a9c08d7162f\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="777347dd077086470522d2352c1033eb6896d4e1">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_84fca081325b21ee60094e57c3efb423905575fe\classes.dex" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_4fcc9f8f6e9ceec6cba075f28801e13e42b9648a\classes.dex" />
+    </item>
+
+</items>

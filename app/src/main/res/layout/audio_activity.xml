@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_audio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="点我播放音乐"
+            android:textColor="#B3A523"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="在Android开发中我们经常使用MediaPlayer来播放音频文件，但是MediaPlayer存在一些不足，例如：资源占用量较高、延迟时间较长、不支持多个音频同时播放等。这些缺点决定了MediaPlayer在某些场合的使用情况不会很理想，例如在对时间精准度要求相对较高的游戏开发中。\n
+     在游戏开发中我们经常需要播放一些游戏音效（比如：子弹爆炸，物体撞击等），这些音效的共同特点是短促、密集、延迟程度小。在这样的场景下，我们可以使用SoundPool代替MediaPlayer来播放这些音效。\n
+    SoundPool（android.media.SoundPool），顾名思义是声音池的意思，主要用于播放一些较短的声音片段，支持从程序的资源或文件系统加载。与MediaPlayer相比，SoundPool的优势在于CPU资源占用量低和反应延迟小。另外，SoundPool还支持自行设置声音的品质、音量、播放比率等参数，支持通过ID对多个音频流进行管理。"
+            android:textColor="#38BBF8"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

@@ -7,6 +7,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
     <style name="MatchMatch">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -36,8 +37,6 @@
     </style>
 
 
-
-
     <!--父类的属性配置-->
 
     <style name="WrapMatch">
@@ -54,7 +53,6 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
-
 
 
     <style name="MatchAuto">
@@ -154,4 +152,39 @@
         <item name="android:layout_width">1px</item>
         <item name="android:layout_height">match_parent</item>
     </style>
+
+
+    <!--下面是自定义的dialog的样式-->
+    <style  name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <!--上面是自定义的dialog的样式-->
+
+
+    <!--自定义的dialog-->
+    <style name="AddressDialog" parent="@android:style/Theme.Dialog">
+        <!-- 设置dialog的背景为白色 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 边框 @null不设置 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否覆盖内容 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 动画执行样式 -->
+        <item name="android:windowAnimationStyle">@null</item>
+
+        <!-- 是否设置显示window阴影 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 设置透明透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 是不是显示标题栏 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 点击空白处是不是取消dialog -->
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+
+
 </resources>

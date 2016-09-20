@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':pulltorefreshlibrary2', ':pulltorefreshlibrary'
+project(':pulltorefreshlibrary2').projectDir = new File('pulltorefreshlibrary')

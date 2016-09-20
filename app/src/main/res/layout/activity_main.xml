@@ -100,5 +100,55 @@
             android:textSize="18sp"
             android:padding="8dp"
             android:text="仿微信扫一扫"/>
+        <Button
+            android:layout_marginTop="12dp"
+            android:id="@+id/button_audio_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#69090402"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="播放声音测试"/>
+        <Button
+            android:layout_marginTop="12dp"
+            android:id="@+id/button_dialog_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#69090402"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="我是自定义dialog的测试"/>
+        <Button
+            android:layout_marginTop="12dp"
+            android:id="@+id/button_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#69090402"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="Material Spinner下拉菜单测试"/>
+        <Button
+            android:layout_marginTop="12dp"
+            android:id="@+id/button_video_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#69090402"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="VideoView网络视频播放的测试"/>
+        <Button
+            android:layout_marginTop="12dp"
+            android:id="@+id/button_pulltorefresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#69090402"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="PullToRefresh下拉加载更多测试"/>
     </LinearLayout>
 </ScrollView>

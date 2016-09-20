@@ -2,15 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lenovo.demo_grideview_scoreview">
 
-
-    <!--下面是ZXing扫码的权限-->
+    <!-- 下面是ZXing扫码的权限 -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <!--上面是ZXing扫码的权限-->
 
-
+    <!-- 上面是ZXing扫码的权限 -->
     <application
         android:name=".mApplication"
         android:allowBackup="true"
@@ -18,7 +16,10 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!-- 文本间距测试 -->
         <activity android:name=".UiActivity.TextViewTestActivity" />
+        <!-- 主界面 -->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +27,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UiActivity.ScannerActivity"></activity>
+        <!-- 扫码的界面 -->
+        <activity android:name=".UiActivity.ScannerActivity" />
+        <!-- 本地段音频的播放 -->
+        <activity android:name=".UiActivity.AudioActivity" />
+        <!-- 下拉列表 -->
+        <activity android:name=".UiActivity.SpinnerActivity" />
+        <!-- 自定义的对话框 -->
+        <activity android:name=".UiActivity.DialogActivity" />
+        <!-- 视频播放的测试 -->
+        <activity android:name=".UiActivity.VideoViewActivity" />
+        <activity android:name=".UiActivity.PullToRefreshActivity"></activity>
     </application>
 
 </manifest>

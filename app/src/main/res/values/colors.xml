@@ -6,7 +6,6 @@
 
     <!--这下面的颜色是和Zxing有关的 -->
     <color name="navigationBarColor">#f46444</color>
-
     <color name="colorPrimaryDarkTrans">#CCf57257</color>
 
 </resources>

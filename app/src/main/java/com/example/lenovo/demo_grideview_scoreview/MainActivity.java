@@ -20,14 +20,19 @@ import android.widget.ListView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.example.lenovo.demo_grideview_scoreview.UiActivity.AudioActivity;
+import com.example.lenovo.demo_grideview_scoreview.UiActivity.DialogActivity;
+import com.example.lenovo.demo_grideview_scoreview.UiActivity.PullToRefreshActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.ScannerActivity;
+import com.example.lenovo.demo_grideview_scoreview.UiActivity.SpinnerActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.TextViewTestActivity;
+import com.example.lenovo.demo_grideview_scoreview.UiActivity.VideoViewActivity;
 import com.example.lenovo.demo_grideview_scoreview.Utils.ToastUtils;
 
 import java.util.ArrayList;
 import java.util.zip.Inflater;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private String[] iconName = {"通讯录", "日历", "照相机", "时钟", "游戏", "短信", "铃声",
             "设置", "语音", "天气", "浏览器", "视频", "热门"};
     /**
@@ -42,6 +47,11 @@ public class MainActivity extends AppCompatActivity {
     private AdapterView<?> mParent;
     private Button mButton;
     private Button codeScanner;
+    private Button audioPlayer;
+    private Button customDialog;
+    private Button btn_spinner;
+    private Button button_video_view;
+    private Button button_pulltorefresh;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +62,12 @@ public class MainActivity extends AppCompatActivity {
         GridView gridViewS = (GridView) findViewById(R.id.gview_second);
         mButton = (Button) findViewById(R.id.button_main);
         codeScanner = (Button) findViewById(R.id.button_code_scanner);
+        audioPlayer = (Button) findViewById(R.id.button_audio_play);
+        customDialog = (Button) findViewById(R.id.button_dialog_play);
+        btn_spinner = (Button) findViewById(R.id.button_spinner);
+        button_video_view = (Button) findViewById(R.id.button_video_view);
+        button_pulltorefresh = (Button) findViewById(R.id.button_pulltorefresh);
+
         initListener();
         final mAdapter adapter = new mAdapter();
         gridViewF.setAdapter(adapter);
@@ -85,67 +101,107 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 mParent = parent;
                 ToastUtils.showToast(iconName[position]);
-                queryItemSelected(parent,position);
+                queryItemSelected(parent, position);
             }
         });
 
     }
 
     private void initListener() {
-        mButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ToastUtils.showToast("我是详情");
-                Intent intent = new Intent(MainActivity.this, TextViewTestActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        codeScanner.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent scanIntent =new Intent(MainActivity.this, ScannerActivity.class);
-                startActivity(scanIntent);
-            }
-        });
+        mButton.setOnClickListener(this);
+        codeScanner.setOnClickListener(this);
+        audioPlayer.setOnClickListener(this);
+        customDialog.setOnClickListener(this);
+        btn_spinner.setOnClickListener(this);
+        button_video_view.setOnClickListener(this);
+        button_pulltorefresh.setOnClickListener(this);
     }
 
     /**
      * 清除多选条目中所有的已经选中的条目
      */
     private void clearAllMultiple() {
-        if(list.size()!=0){
+        if (list.size() != 0) {
             clearnAllSelected(0xAAEEEEEE);
-            list=new ArrayList<>();  //清空当前的集合存放下一次的数据
+            list = new ArrayList<>();  //清空当前的集合存放下一次的数据
         }
     }
+
     /**
      * 清除所有选中的条目
      */
     private void clearnAllSelected(int colorCancel) {
-        for (int i = 0; i <list.size() ; i++) {
+        for (int i = 0; i < list.size(); i++) {
             mParent.getChildAt(list.get(i)).setBackgroundColor(colorCancel);
         }
-        
+
     }
+
     /**
      * 查询当前选中的条目是不是已经保存状态
+     *
      * @param position
      */
-    private void queryItemSelected(AdapterView<?> parent,int position) {
+    private void queryItemSelected(AdapterView<?> parent, int position) {
         for (int i = 0; i < list.size(); i++) {
-            if(position==list.get(i)){  //集合已有有这个条目，移除
+            if (position == list.get(i)) {  //集合已有有这个条目，移除
                 list.remove(i);
                 parent.getChildAt(position).setBackgroundColor(0xAAEEEEEE);
                 return;
             }
         }
 
-            list.add(position);
-            parent.getChildAt(position).setBackgroundColor(0x44E73B2F);
+        list.add(position);
+        parent.getChildAt(position).setBackgroundColor(0x44E73B2F);
 
     }
 
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            //文本间距测试
+            case R.id.button_main:
+                ToastUtils.showToast("我是详情");
+                Intent intent = new Intent(MainActivity.this, TextViewTestActivity.class);
+                startActivity(intent);
+                break;
+            //扫码的界面
+            case R.id.button_code_scanner:
+                        Intent scanIntent = new Intent(MainActivity.this, ScannerActivity.class);
+                        startActivity(scanIntent);
+                break;
+            //本地段音频的播放
+            case R.id.button_audio_play:
+                Intent audioIntent = new Intent(MainActivity.this, AudioActivity.class);
+                startActivity(audioIntent);
+                break;
+            //自定义的对话框
+            case R.id.button_dialog_play:
+                Intent dialogIntent = new Intent(MainActivity.this, DialogActivity.class);
+                startActivity(dialogIntent);
+                break;
+            //下拉列表
+            case R.id.button_spinner:
+                Intent spinnerIntent = new Intent(MainActivity.this, SpinnerActivity.class);
+                startActivity(spinnerIntent);
+                break;
+
+            //网络视频播放的Demo
+            case R.id.button_video_view:
+                Intent videoviewIntent = new Intent(MainActivity.this, VideoViewActivity.class);
+                startActivity(videoviewIntent);
+                break;
+
+            //网络视频播放的Demo
+            case R.id.button_pulltorefresh:
+                Intent PullToRefreshIntent = new Intent(MainActivity.this, PullToRefreshActivity.class);
+                startActivity(PullToRefreshIntent);
+                break;
+
+
+            }
+
+        }
 
 
 

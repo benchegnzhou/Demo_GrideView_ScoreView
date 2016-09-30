@@ -36,7 +36,11 @@ dependencies {
     compile 'cn.bingoogolapple:bga-qrcodecore:1.1.0@aar'
     compile 'cn.bingoogolapple:bga-zxing:1.1.0@aar'
     // -------------------- 以上三个库是必须依赖的 ----------------------------
-
     //---------------------这个是下拉刷新的依赖---------------------
     compile project(':pulltorefreshlibrary2')
+    // ---------------------- 图片框架 ----------------------------
+    compile 'com.squareup.picasso:picasso:2.3.2'
+
+    //baserecyclerview的依赖库
+    compile project(':baserecyclerviewlibrary')
 }

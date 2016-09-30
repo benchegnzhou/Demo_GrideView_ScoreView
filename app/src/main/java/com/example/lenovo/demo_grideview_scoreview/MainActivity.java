@@ -1,36 +1,31 @@
 package com.example.lenovo.demo_grideview_scoreview;
 
-import android.content.Context;
 import android.content.Intent;
-import android.nfc.Tag;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AbsListView;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.GridView;
-import android.widget.LinearLayout;
-import android.widget.ListView;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.AudioActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.DialogActivity;
+import com.example.lenovo.demo_grideview_scoreview.UiActivity.FragmentChangeActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.PullToRefreshActivity;
+import com.example.lenovo.demo_grideview_scoreview.UiActivity.RecyclerviewActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.ScannerActivity;
+import com.example.lenovo.demo_grideview_scoreview.UiActivity.ShareSDkActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.SpinnerActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.TextViewTestActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.VideoViewActivity;
+import com.example.lenovo.demo_grideview_scoreview.UiActivity.PicassoActivity;
 import com.example.lenovo.demo_grideview_scoreview.Utils.ToastUtils;
 
 import java.util.ArrayList;
-import java.util.zip.Inflater;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private String[] iconName = {"通讯录", "日历", "照相机", "时钟", "游戏", "短信", "铃声",
@@ -52,6 +47,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn_spinner;
     private Button button_video_view;
     private Button button_pulltorefresh;
+    private Button button_changeFragment;
+    private Button button_picasso;
+    private Button button_recyclerview;
+    private Button button_sharesdk;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +66,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_spinner = (Button) findViewById(R.id.button_spinner);
         button_video_view = (Button) findViewById(R.id.button_video_view);
         button_pulltorefresh = (Button) findViewById(R.id.button_pulltorefresh);
+        button_changeFragment = (Button) findViewById(R.id.button_fragment_test);
+        button_picasso = (Button) findViewById(R.id.button_picasso);
+        button_recyclerview = (Button) findViewById(R.id.button_recyclerview);
+        button_sharesdk = (Button) findViewById(R.id.button_sharesdk);
 
         initListener();
         final mAdapter adapter = new mAdapter();
@@ -115,6 +118,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_spinner.setOnClickListener(this);
         button_video_view.setOnClickListener(this);
         button_pulltorefresh.setOnClickListener(this);
+        button_changeFragment.setOnClickListener(this);
+        button_picasso.setOnClickListener(this);
+        button_recyclerview.setOnClickListener(this);
+        button_sharesdk.setOnClickListener(this);
     }
 
     /**
@@ -198,6 +205,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(PullToRefreshIntent);
                 break;
 
+            //多个fragment切换的Demo
+            case R.id.button_fragment_test:
+                Intent changeFragmentIntent = new Intent(MainActivity.this, FragmentChangeActivity.class);
+                startActivity(changeFragmentIntent);
+                break;
+            //使用picasso加载圆形头像
+            case R.id.button_picasso:
+                Intent roundnessIconIntent = new Intent(MainActivity.this, PicassoActivity.class);
+                startActivity(roundnessIconIntent);
+                break;
+
+            //recyclerview的测试
+            case R.id.button_recyclerview:
+                Intent recyclerviewIntent = new Intent(MainActivity.this,RecyclerviewActivity.class);
+                startActivity(recyclerviewIntent);
+                break;
+
+            //recyclerview的测试
+            case R.id.button_sharesdk:
+                Intent shareSDKIntent = new Intent(MainActivity.this,ShareSDkActivity.class);
+                startActivity(shareSDKIntent);
+                break;
 
             }
 

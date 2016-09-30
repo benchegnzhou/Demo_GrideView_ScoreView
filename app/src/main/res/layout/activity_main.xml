@@ -150,5 +150,45 @@
             android:textSize="18sp"
             android:padding="8dp"
             android:text="PullToRefresh下拉加载更多测试"/>
+        <Button
+            android:layout_marginTop="12dp"
+            android:id="@+id/button_fragment_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#69090402"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="多个fragment切换的测试"/>
+        <Button
+            android:layout_marginTop="12dp"
+            android:id="@+id/button_picasso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#69090402"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="picasso加载圆形图片"/>
+        <Button
+            android:layout_marginTop="12dp"
+            android:id="@+id/button_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#69090402"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="recyclerview的展示"/>
+        <Button
+            android:layout_marginTop="12dp"
+            android:id="@+id/button_sharesdk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#69090402"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="sharesdk分享的演示✨星✨"/>
     </LinearLayout>
 </ScrollView>

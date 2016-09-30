@@ -8,4 +8,38 @@
     <color name="navigationBarColor">#f46444</color>
     <color name="colorPrimaryDarkTrans">#CCf57257</color>
 
+
+    <!--加白的蓝色-->
+    <color name="colorBrightBlue">#3394FF</color>
+    <!--中蓝-->
+    <color name="colorBlue">#007AFF</color>
+    <!--深蓝-->
+    <color name="colorDarkBlue">#0061CC</color>
+
+
+    <!--红色-->
+    <color name="colorRed">#FF3B2F</color>
+    <!--橘色-->
+    <color name="colorOrange">#F59227</color>
+    <!--淡黄色-->
+    <color name="colorYellow">#FEE94E</color>
+
+
+    <!--加白的绿-->
+    <color name="colorBrightGreen">#6FE183</color>
+    <!--中绿-->
+    <color name="colorGreen">#4CDA64</color>
+    <!--深绿-->
+    <color name="colorDarkGreen">#3CAE50</color>
+
+
+    <!--深紫色-->
+    <color name="colorPurple">#663FB4</color>
+    <!--淡蓝-->
+    <color name="colorPoolBlue">#DDE4EC</color>
+    <!--淡绿-->
+    <color name="colorPoolGreen">#E3EDE5</color>
+    <!--淡紫-->
+    <color name="colorPoolPurple">#EAE6F4</color>
+
 </resources>

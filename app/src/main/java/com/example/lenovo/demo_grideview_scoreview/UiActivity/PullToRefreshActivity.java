@@ -166,10 +166,7 @@ public class PullToRefreshActivity extends AppCompatActivity {
 
             }
         }).start();
-
-
     }
-
 
     /**
      * 这一个模拟网络数据的加载

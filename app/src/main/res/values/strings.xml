@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Demo_GrideView_ScoreView</string>
+    <string name="movie">电影</string>
+    <string name="tv">电视剧</string>
+    <string name="anime">动漫</string>
+    <string name="variety">综艺</string>
+
+    <string name="movie_view">这是一个电影界面</string>
+    <string name="tv_view">这是一个电视剧界面</string>
+    <string name="anime_view">这是一个动漫界面</string>
+    <string name="variety_view">这是一个综艺界面</string>
+
 </resources>

@@ -425,23 +425,31 @@ false, true);
     }  
 
 mPullRefreshListView.getLoadingLayoutProxy(true, false);接收两个参数，为true,false返回设置下拉的ILoadingLayout；为false,true返回设置上拉的。
-5、常用的一些属性
 
-当然了，pull-to-refresh在xml中还能定义一些属性：
-ptrMode，ptrDrawable，ptrAnimationStyle这三个上面已经介绍过。
-ptrRefreshableViewBackground 设置整个mPullRefreshListView的背景色
-ptrHeaderBackground 设置下拉Header或者上拉Footer的背景色
-ptrHeaderTextColor 用于设置Header与Footer中文本的颜色
-ptrHeaderSubTextColor 用于设置Header与Footer中上次刷新时间的颜色
-ptrShowIndicator如果为true会在mPullRefreshListView中出现icon，右上角和右下角，挺有意思的。
-ptrHeaderTextAppearance ， ptrSubHeaderTextAppearance分别设置拉Header或者上拉Footer中字体的类型颜色等等。
-ptrRotateDrawableWhilePulling当动画设置为rotate时，下拉是是否旋转。
-ptrScrollingWhileRefreshingEnabled刷新的时候，是否允许ListView或GridView滚动。觉得为true比较好。
-ptrListViewExtrasEnabled 决定了Header，Footer以何种方式加入mPullRefreshListView，true为headView方式加入，就是滚动时刷新头部会一起滚动。
-最后2个其实对于用户体验还是挺重要的，如果设置的时候考虑下~。其他的属性自己选择就好。
-注：上述属性很多都可以代码控制，如果有需要可以直接mPullRefreshListView.set属性名 查看
-以上为pull-to-refresh所有支持的属性~~
- 源码有个类中的
-FloatMath.floor方法过时报错了，替换为Math.floor即可
+> * 5、常用的一些属性
 
-好了，如果你觉得本篇博客对你有用，就点个赞~留个言吧
+	当然了，pull-to-refresh在xml中还能定义一些属性：
+	ptrMode，ptrDrawable，ptrAnimationStyle这三个上面已经介绍过。
+	ptrRefreshableViewBackground 设置整个mPullRefreshListView的背景色
+	ptrHeaderBackground 设置下拉Header或者上拉Footer的背景色
+	ptrHeaderTextColor 用于设置Header与Footer中文本的颜色
+	ptrHeaderSubTextColor 用于设置Header与Footer中上次刷新时间的颜色
+	ptrShowIndicator如果为true会在mPullRefreshListView中出现icon，右上角和右下角，挺有意思的。
+	ptrHeaderTextAppearance ， ptrSubHeaderTextAppearance分别设置拉Header或者上拉Footer中字体的类型颜色等等。
+	ptrRotateDrawableWhilePulling当动画设置为rotate时，下拉是是否旋转。
+	ptrScrollingWhileRefreshingEnabled刷新的时候，是否允许ListView或GridView滚动。觉得为true比较好。
+	ptrListViewExtrasEnabled 决定了Header，Footer以何种方式加入mPullRefreshListView，true为headView方式加入，就是滚动时刷新头部会一起滚动。
+	最后2个其实对于用户体验还是挺重要的，如果设置的时候考虑下~。其他的属性自己选择就好。
+	注：上述属性很多都可以代码控制，如果有需要可以直接mPullRefreshListView.set属性名 查看
+	以上为pull-to-refresh所有支持的属性~~
+	 源码有个类中的
+	FloatMath.floor方法过时报错了，替换为Math.floor即可
+	
+	好了，如果你觉得本篇博客对你有用，就点个赞~留个言吧
+
+
+
+
+
+
+

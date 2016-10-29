@@ -6,294 +6,686 @@
         jumboMode="true"
         revision="24.0.2"
         sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_549888563b1090176af81b23fefde0497222385c.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-support-fragment-24.2.0_549888563b1090176af81b23fefde0497222385c.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-ShortMessage-2.7.7.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="7b6aec675d61c398cb0690716630e22467cae879">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-ShortMessage-2.7.7_b22e7a6317afcb19ac89f09d26044e202cae5e8d.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-ShortMessage-2.7.7.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="7b6aec675d61c398cb0690716630e22467cae879">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\ShareSDK-ShortMessage-2.7.7_b22e7a6317afcb19ac89f09d26044e202cae5e8d.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-ShortMessage-2.7.7_b22e7a6317afcb19ac89f09d26044e202cae5e8d.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-support-fragment-24.2.0_549888563b1090176af81b23fefde0497222385c.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-support-compat-24.2.0_8d446efacae6cda9343a781ce6b5e704367ffd82.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-QZone-2.7.7.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="558713df8d3cc7543375e51e63a0638aeb0e2e9f">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\ShareSDK-QZone-2.7.7_c42fbf5f8d955c93ce58aad68c39c90116278e33.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-QZone-2.7.7_c42fbf5f8d955c93ce58aad68c39c90116278e33.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_8d446efacae6cda9343a781ce6b5e704367ffd82.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-support-compat-24.2.0_8d446efacae6cda9343a781ce6b5e704367ffd82.jar" />
     </item>
     <item
-        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.0.1\345b89f45d02d8b09400b472fab7b7e38f4ede1f\butterknife-annotations-8.0.1.jar"
-        jumboMode="true"
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-QZone-2.7.7.jar"
+        jumboMode="false"
         revision="24.0.2"
-        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.0.1_3dbb2a8e5af33d30dc9813d6e807263b19c3d665.jar" />
+        sha1="558713df8d3cc7543375e51e63a0638aeb0e2e9f">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-QZone-2.7.7_c42fbf5f8d955c93ce58aad68c39c90116278e33.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
         revision="24.0.2"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_1b4d5a587b55e06042ef2e0563dcc6e9e5f49cb2.jar" />
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\bolts-android-1.1.4_ec9ac6313f27d26c6f60b69d7ae352aa3890ed8c.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_8df75e5c6547025e56e8ac4a9ed5b0486b5c53db.jar" />
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\bolts-android-1.1.4_ec9ac6313f27d26c6f60b69d7ae352aa3890ed8c.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\libs\MobCommons-2016.0830.1940.jar"
-        jumboMode="true"
+        jar="F:\Demo_GrideView_ScoreView\app\libs\MobTools-2016.0830.1940.jar"
+        jumboMode="false"
         revision="24.0.2"
-        sha1="ca36dc249a46648f8c8f53ad5ee4a935e80956a8">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\MobCommons-2016.0830.1940_b92aa7e76c4a3fb2072f4e3411a8d9f2f54ba127.jar" />
-    </item>
-    <item
-        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\cn.bingoogolapple\bga-qrcodecore\1.1.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="d6ca7d9db25605c0fc94cdaf6d3a93c42b81e0f5">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\cn.bingoogolapple-bga-qrcodecore-1.1.0_e57ff9dd6d2de9edead38eb88aa3b43c8db2b0a9.jar" />
+        sha1="210bf77409df74387b9df1d7987de310a2e0b145">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\MobTools-2016.0830.1940_b0e01beb327f1d093a49fa51a8ded27eab97502a.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\libs\MobTools-2016.0830.1940.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="210bf77409df74387b9df1d7987de310a2e0b145">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\MobTools-2016.0830.1940_b0e01beb327f1d093a49fa51a8ded27eab97502a.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\MobTools-2016.0830.1940_b0e01beb327f1d093a49fa51a8ded27eab97502a.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Email-2.7.7.jar"
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\incremental-classes\jifeng\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="6c2bcaf541712b3f80c64496c73a914f8ac42cb8">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\ShareSDK-Email-2.7.7_863b35dee815596b13e1d325832d8e1bd965b155.jar" />
+        sha1="d867bf0e5229d9cdbd91a3ae5ee6a9ad243af8f6">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\instant-run-bootstrap_881f2c159930806edc1d7818e511700634e25a44.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Wechat-Core-2.7.7.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="7942d022e2d3d8ed7ccbaf17df22da2eeddddfff">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-Wechat-Core-2.7.7_3a0cf157f3df4ce49201c7c41c383eae60461306.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.2.0_ea5e0ca322faed5b5676d94a9466ef81b0052beb.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-cardview-v7-24.2.0_ea5e0ca322faed5b5676d94a9466ef81b0052beb.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Wechat-Core-2.7.7.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="7942d022e2d3d8ed7ccbaf17df22da2eeddddfff">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.7.7_3a0cf157f3df4ce49201c7c41c383eae60461306.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-Wechat-Core-2.7.7_3a0cf157f3df4ce49201c7c41c383eae60461306.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Alipay-2.7.7.jar"
-        jumboMode="true"
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
         revision="24.0.2"
-        sha1="62eb451915ed686ba3b86f75c7fb916dac78dd0f">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\ShareSDK-Alipay-2.7.7_e9c08a187ebc4bd86e1f838dcbfe5266f148afb1.jar" />
+        sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-cardview-v7-24.2.0_ea5e0ca322faed5b5676d94a9466ef81b0052beb.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_2dcdbf22002e0892735de26b9ade128e70536b06.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\internal_impl-24.2.0_2dcdbf22002e0892735de26b9ade128e70536b06.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Wechat-Moments-2.7.7.jar"
-        jumboMode="true"
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
         revision="24.0.2"
-        sha1="1029839bf5cfc4522366b1fc17eb30627fa5b431">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.7.7_07c755b08598104de387ebd11f77851d0d226c88.jar" />
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\internal_impl-24.2.0_2dcdbf22002e0892735de26b9ade128e70536b06.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.10.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_40d0a014fe68ee7078a858e8b245452bc1fe5da8.jar" />
+        sha1="d323cf4983bdfce7136a1ce5e32710e1b36b20fe">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.facebook.fresco-fbcore-0.10.0_cbb126dbaa29dea47c6c2915491c9a5ac0ac5e45.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.10.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d323cf4983bdfce7136a1ce5e32710e1b36b20fe">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.facebook.fresco-fbcore-0.10.0_cbb126dbaa29dea47c6c2915491c9a5ac0ac5e45.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_3c78d8f631e1d2f1ee1d691065de7d67a0b9caa6.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-appcompat-v7-24.2.0_3c78d8f631e1d2f1ee1d691065de7d67a0b9caa6.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
         revision="24.0.2"
-        sha1="6e3288a2465371052636d3bf8a8974d526d25824">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\instant-run_0048deffcf863e848d685f98a81ce6c30bc61d9e.jar" />
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-appcompat-v7-24.2.0_3c78d8f631e1d2f1ee1d691065de7d67a0b9caa6.jar" />
     </item>
     <item
-        jar="C:\Users\lenovo\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
-        jumboMode="true"
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Wechat-2.7.7.jar"
+        jumboMode="false"
         revision="24.0.2"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_376f30350fea4529ba876d72c7b00f9a80450377.jar" />
+        sha1="b97a04213d77372e90bbd280ad2149a0623e4e0b">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-Wechat-2.7.7_337a2e07ede05997730c0fc4632faab2a31a915b.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Wechat-2.7.7.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="b97a04213d77372e90bbd280ad2149a0623e4e0b">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-2.7.7_337a2e07ede05997730c0fc4632faab2a31a915b.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-Wechat-2.7.7_337a2e07ede05997730c0fc4632faab2a31a915b.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_0f0f1c0e62bad7293a810e1e60ecd5f8d995faab.jar" />
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\butterknife-7.0.1_0c79ebbba63d7e3eb63f3dbd62cdbc244a24a421.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
-        jumboMode="true"
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
         revision="24.0.2"
-        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.0_a37accecf6a7566581c59ba374e5c693bf367b73.jar" />
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\butterknife-7.0.1_0c79ebbba63d7e3eb63f3dbd62cdbc244a24a421.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Wechat-Favorite-2.7.7.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="2dfc7d48951c61423eb6a536e68c36579ad61ec5">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Favorite-2.7.7_0d656193fd4ec10c852b529cb0bf05d22f4c154e.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-Wechat-Favorite-2.7.7_0d656193fd4ec10c852b529cb0bf05d22f4c154e.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Wechat-Favorite-2.7.7.jar"
+        jumboMode="false"
         revision="24.0.2"
-        sha1="78b792dd69e32e9d67f017ba71569127e366ef86">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_84fca081325b21ee60094e57c3efb423905575fe.jar" />
+        sha1="2dfc7d48951c61423eb6a536e68c36579ad61ec5">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-Wechat-Favorite-2.7.7_0d656193fd4ec10c852b529cb0bf05d22f4c154e.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-TencentWeibo-2.7.7.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="40eed754fe184a04a0adbe9157e8772a0ff301ef">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-TencentWeibo-2.7.7_9d81b1f48463f693e2a9d341d0556bac667356f6.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-TencentWeibo-2.7.7.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="40eed754fe184a04a0adbe9157e8772a0ff301ef">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\ShareSDK-TencentWeibo-2.7.7_9d81b1f48463f693e2a9d341d0556bac667356f6.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-TencentWeibo-2.7.7_9d81b1f48463f693e2a9d341d0556bac667356f6.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="true"
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
         revision="24.0.2"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_3352542cf47c30f4ac443ef6a50a129f1868ab03.jar" />
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\internal_impl-24.2.0_9276b6ab4e24933c688733b2ae0d719dff79a02a.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_9276b6ab4e24933c688733b2ae0d719dff79a02a.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\internal_impl-24.2.0_9276b6ab4e24933c688733b2ae0d719dff79a02a.jar" />
     </item>
     <item
-        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.3.2\d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27\picasso-2.3.2.jar"
-        jumboMode="true"
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.10.0\jars\classes.jar"
+        jumboMode="false"
         revision="24.0.2"
-        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\picasso-2.3.2_623172150418518f4970b2560ab7b46cdfafb60a.jar" />
+        sha1="857099e23430445aeb65cf703d5adf646ff280f1">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.facebook.fresco-fresco-0.10.0_6f9d79dad1c80287daaea0d0d14bd5ff5d8eb7ec.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.10.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_41aac60b8e0a9ddd43cb27e6f28480101da2a9f6.jar" />
+        sha1="857099e23430445aeb65cf703d5adf646ff280f1">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.facebook.fresco-fresco-0.10.0_6f9d79dad1c80287daaea0d0d14bd5ff5d8eb7ec.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\incremental-runtime-classes\jifeng\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="1b94b8bf319ecbe72e42113192a221b2de237151">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\instant-run_c4dc4e705029d2e8fddc2f1408a568251e0517ec.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-animated-vector-drawable-24.2.0_392fd7365d156c37f0259ef2f464b4dbb86cf3d1.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_392fd7365d156c37f0259ef2f464b4dbb86cf3d1.jar" />
-    </item>
-    <item
-        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.0_69ec9a2264170c0f2a01e92f9de809dbea7f4621.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-animated-vector-drawable-24.2.0_392fd7365d156c37f0259ef2f464b4dbb86cf3d1.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.jaredrummler\material-spinner\1.0.4\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="e1e11f788f45c9dd07ecd0600ffae082d34daf2e">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\com.jaredrummler-material-spinner-1.0.4_f8cf32314d1699acca92eeb4628e54cedfa97aae.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.jaredrummler-material-spinner-1.0.4_f8cf32314d1699acca92eeb4628e54cedfa97aae.jar" />
     </item>
     <item
-        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.10.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.facebook.fresco-imagepipeline-base-0.10.0_88312a013845c6040b8e09b2df5185771537b66f.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Email-2.7.7.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6c2bcaf541712b3f80c64496c73a914f8ac42cb8">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-Email-2.7.7_863b35dee815596b13e1d325832d8e1bd965b155.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-QQ-2.7.7.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="5b1593b719931c6c1902ab80998b7fb5cf73e488">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-QQ-2.7.7_6793098789ed97c1dc29a2d2ad16d335219934f2.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\cn.bingoogolapple\bga-zxing\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="5c0cd885552d8268e437a202e2660196d58e7b4e">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\cn.bingoogolapple-bga-zxing-1.1.0_287d4c4d7810e4a66a0468164936929a0cfd5f92.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.10.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\core-3.2.1_2ca0c1a0019fa4a84526779c78b7c0fd8328c8a5.jar" />
+        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.facebook.fresco-imagepipeline-base-0.10.0_88312a013845c6040b8e09b2df5185771537b66f.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\cn.bingoogolapple\bga-zxing\1.1.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="5c0cd885552d8268e437a202e2660196d58e7b4e">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\cn.bingoogolapple-bga-zxing-1.1.0_287d4c4d7810e4a66a0468164936929a0cfd5f92.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\cn.bingoogolapple-bga-zxing-1.1.0_287d4c4d7810e4a66a0468164936929a0cfd5f92.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-QQ-2.7.7.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="5b1593b719931c6c1902ab80998b7fb5cf73e488">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.7.7_6793098789ed97c1dc29a2d2ad16d335219934f2.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-QQ-2.7.7_6793098789ed97c1dc29a2d2ad16d335219934f2.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.0.1\jars\classes.jar"
-        jumboMode="true"
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.jaredrummler\material-spinner\1.0.4\jars\classes.jar"
+        jumboMode="false"
         revision="24.0.2"
-        sha1="74ca46e7da11e3d065eb64cdbe6568a7ed74c211">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.0.1_d6b6505c9ed6e452072702a17bdd7ac115a0de85.jar" />
+        sha1="e1e11f788f45c9dd07ecd0600ffae082d34daf2e">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.jaredrummler-material-spinner-1.0.4_f8cf32314d1699acca92eeb4628e54cedfa97aae.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-SinaWeibo-2.7.7.jar"
+        jumboMode="false"
         revision="24.0.2"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_cbd09667c844cddab465010b644d8a9c08d7162f.jar" />
+        sha1="9d6f84355d4f6252240aebc751ba21eaea07e2dd">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-SinaWeibo-2.7.7_a68ec0cd3b0fe44ebbe1f26cd18ee5a8d6406beb.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-SinaWeibo-2.7.7.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="9d6f84355d4f6252240aebc751ba21eaea07e2dd">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.7.7_a68ec0cd3b0fe44ebbe1f26cd18ee5a8d6406beb.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-SinaWeibo-2.7.7_a68ec0cd3b0fe44ebbe1f26cd18ee5a8d6406beb.jar" />
     </item>
     <item
-        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
-        jumboMode="true"
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Core-2.7.7.jar"
+        jumboMode="false"
         revision="24.0.2"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_4fcc9f8f6e9ceec6cba075f28801e13e42b9648a.jar" />
+        sha1="b060c818956585ebc16be9c034ba4970e5552d25">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-Core-2.7.7_3a4b1faf914a86fc06420be2e62f7bd28b62523f.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-YouDao-2.7.7.jar"
-        jumboMode="true"
+        jumboMode="false"
         revision="24.0.2"
         sha1="0a1af9a656b4ccab4cd5618c1514df8d9d24e9df">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\ShareSDK-YouDao-2.7.7_d26b06f06aa7aa12d8e74d61cef8c80710c3ffe0.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-YouDao-2.7.7_d26b06f06aa7aa12d8e74d61cef8c80710c3ffe0.jar" />
     </item>
     <item
         jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Core-2.7.7.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="b060c818956585ebc16be9c034ba4970e5552d25">
-        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.7.7_3a4b1faf914a86fc06420be2e62f7bd28b62523f.jar" />
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-Core-2.7.7_3a4b1faf914a86fc06420be2e62f7bd28b62523f.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-YouDao-2.7.7.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="0a1af9a656b4ccab4cd5618c1514df8d9d24e9df">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-YouDao-2.7.7_d26b06f06aa7aa12d8e74d61cef8c80710c3ffe0.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.10.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.facebook.fresco-drawee-0.10.0_9e9bea5d0f8d5bdb9776ffd789428b18452e8f3a.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.10.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.facebook.fresco-drawee-0.10.0_9e9bea5d0f8d5bdb9776ffd789428b18452e8f3a.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\internal_impl-24.2.0_1b4d5a587b55e06042ef2e0563dcc6e9e5f49cb2.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\internal_impl-24.2.0_1b4d5a587b55e06042ef2e0563dcc6e9e5f49cb2.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-support-core-utils-24.2.0_8df75e5c6547025e56e8ac4a9ed5b0486b5c53db.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-support-core-utils-24.2.0_8df75e5c6547025e56e8ac4a9ed5b0486b5c53db.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\libs\MobCommons-2016.0830.1940.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="ca36dc249a46648f8c8f53ad5ee4a935e80956a8">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\MobCommons-2016.0830.1940_b92aa7e76c4a3fb2072f4e3411a8d9f2f54ba127.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.supercwn.superrecycleview\superlibrary\1.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="20ca1e4a60ef444423a2af441bea6016d2dcfb07">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.supercwn.superrecycleview-superlibrary-1.2.0_f0c48d51e6bc6a007f6826cf9df930428de63e52.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\cn.bingoogolapple\bga-qrcodecore\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d6ca7d9db25605c0fc94cdaf6d3a93c42b81e0f5">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\cn.bingoogolapple-bga-qrcodecore-1.1.0_e57ff9dd6d2de9edead38eb88aa3b43c8db2b0a9.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.supercwn.superrecycleview\superlibrary\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="20ca1e4a60ef444423a2af441bea6016d2dcfb07">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.supercwn.superrecycleview-superlibrary-1.2.0_f0c48d51e6bc6a007f6826cf9df930428de63e52.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\cn.bingoogolapple\bga-qrcodecore\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d6ca7d9db25605c0fc94cdaf6d3a93c42b81e0f5">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\cn.bingoogolapple-bga-qrcodecore-1.1.0_e57ff9dd6d2de9edead38eb88aa3b43c8db2b0a9.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Email-2.7.7.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6c2bcaf541712b3f80c64496c73a914f8ac42cb8">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-Email-2.7.7_863b35dee815596b13e1d325832d8e1bd965b155.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Alipay-2.7.7.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="62eb451915ed686ba3b86f75c7fb916dac78dd0f">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-Alipay-2.7.7_e9c08a187ebc4bd86e1f838dcbfe5266f148afb1.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Alipay-2.7.7.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="62eb451915ed686ba3b86f75c7fb916dac78dd0f">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-Alipay-2.7.7_e9c08a187ebc4bd86e1f838dcbfe5266f148afb1.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Wechat-Moments-2.7.7.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="1029839bf5cfc4522366b1fc17eb30627fa5b431">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-Wechat-Moments-2.7.7_07c755b08598104de387ebd11f77851d0d226c88.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\libs\MobCommons-2016.0830.1940.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="ca36dc249a46648f8c8f53ad5ee4a935e80956a8">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\MobCommons-2016.0830.1940_b92aa7e76c4a3fb2072f4e3411a8d9f2f54ba127.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\libs\ShareSDK-Wechat-Moments-2.7.7.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="1029839bf5cfc4522366b1fc17eb30627fa5b431">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\ShareSDK-Wechat-Moments-2.7.7_07c755b08598104de387ebd11f77851d0d226c88.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.zhy\autolayout\1.4.3\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="911eeaf6f474e74b7dbd9fa7f19aa56715a344ae">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.zhy-autolayout-1.4.3_22c9a61acf90c81db7b5d7ce750cec788d9083a4.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\internal_impl-24.2.0_40d0a014fe68ee7078a858e8b245452bc1fe5da8.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\internal_impl-24.2.0_40d0a014fe68ee7078a858e8b245452bc1fe5da8.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.zhy\autolayout\1.4.3\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="911eeaf6f474e74b7dbd9fa7f19aa56715a344ae">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.zhy-autolayout-1.4.3_22c9a61acf90c81db7b5d7ce750cec788d9083a4.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\support-annotations-24.2.0_376f30350fea4529ba876d72c7b00f9a80450377.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\support-annotations-24.2.0_376f30350fea4529ba876d72c7b00f9a80450377.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-support-media-compat-24.2.0_0f0f1c0e62bad7293a810e1e60ecd5f8d995faab.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-support-media-compat-24.2.0_0f0f1c0e62bad7293a810e1e60ecd5f8d995faab.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\library-2.4.0_d1d2405b41fac7202b0c13e704d4336128b69953.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\library-2.4.0_d1d2405b41fac7202b0c13e704d4336128b69953.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-design-24.2.0_a37accecf6a7566581c59ba374e5c693bf367b73.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-design-24.2.0_a37accecf6a7566581c59ba374e5c693bf367b73.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-support-vector-drawable-24.2.0_3352542cf47c30f4ac443ef6a50a129f1868ab03.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-support-vector-drawable-24.2.0_3352542cf47c30f4ac443ef6a50a129f1868ab03.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-support-core-ui-24.2.0_41aac60b8e0a9ddd43cb27e6f28480101da2a9f6.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.3.2\d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27\picasso-2.3.2.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\picasso-2.3.2_623172150418518f4970b2560ab7b46cdfafb60a.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.3.2\d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27\picasso-2.3.2.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\picasso-2.3.2_623172150418518f4970b2560ab7b46cdfafb60a.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-support-core-ui-24.2.0_41aac60b8e0a9ddd43cb27e6f28480101da2a9f6.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-recyclerview-v7-24.2.0_69ec9a2264170c0f2a01e92f9de809dbea7f4621.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-recyclerview-v7-24.2.0_69ec9a2264170c0f2a01e92f9de809dbea7f4621.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.10.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6e1ed00013584399dbe27d45ac1fd6a9828c9fca">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.facebook.fresco-imagepipeline-0.10.0_c2494c55afac0e64d5e39f02efb5852b8e904192.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\core-3.2.1_2ca0c1a0019fa4a84526779c78b7c0fd8328c8a5.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\core-3.2.1_2ca0c1a0019fa4a84526779c78b7c0fd8328c8a5.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\internal_impl-24.2.0_cbd09667c844cddab465010b644d8a9c08d7162f.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\internal_impl-24.2.0_cbd09667c844cddab465010b644d8a9c08d7162f.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.10.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6e1ed00013584399dbe27d45ac1fd6a9828c9fca">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.facebook.fresco-imagepipeline-0.10.0_c2494c55afac0e64d5e39f02efb5852b8e904192.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-support-v4-24.2.0_4fcc9f8f6e9ceec6cba075f28801e13e42b9648a.jar" />
+    </item>
+    <item
+        jar="F:\Demo_GrideView_ScoreView\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="F:\Demo_GrideView_ScoreView\app\build\intermediates\pre-dexed\jifeng\debug\com.android.support-support-v4-24.2.0_4fcc9f8f6e9ceec6cba075f28801e13e42b9648a.jar" />
     </item>
 
 </items>

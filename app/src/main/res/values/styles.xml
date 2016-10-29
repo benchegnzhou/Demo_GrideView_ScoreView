@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:Android="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -6,7 +6,18 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:windowAnimationStyle">@style/activityAnim</item>-->
     </style>
+
+    <!--定义全局的Activity的切换动画但是没有成功-->
+    <!--使用style方式定义activity切换动画-->
+    <!--<style name="activityAnim">-->
+    <!--<item name="android:activityOpenEnterAnimation">@anim/slide_in_top</item>-->
+    <!--<item name="android:activityOpenExitAnimation">@anim/slide_in_top</item>-->
+    <!--<item name="android:activityCloseEnterAnimation">@anim/slide_in_bottom</item>-->
+    <!--<item name="android:activityCloseExitAnimation">@anim/slide_in_bottom</item>-->
+    <!--</style>-->
+
 
     <style name="MatchMatch">
         <item name="android:layout_width">match_parent</item>
@@ -155,7 +166,7 @@
 
 
     <!--下面是自定义的dialog的样式-->
-    <style  name="Dialog" parent="android:style/Theme.Dialog">
+    <style name="Dialog" parent="android:style/Theme.Dialog">
         <item name="android:background">#00000000</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowNoTitle">true</item>
@@ -185,6 +196,77 @@
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
 
+    <!--拍照裁剪的dialog-->
+    <style name="selecting_photograph_dialog_bt">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">#fa193e</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="line_least_eeeeee">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#eeeeee</item>
+    </style>
 
 
+
+
+
+
+
+
+
+    <!--蓝色文本提示的stytle-->
+    <style name="text_hint_stytle_blue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">#3766FF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">8dp</item>
+
+    </style>
+
+
+
+
+
+
+    <!--灰色按钮的stytle-->
+    <style name="btn_stytle_gray">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#00A5D1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <!--灰色按钮的stytle-->
+    <style name="btn_stytle_blue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#3766FF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+
+    </style>
+
+
+    <!--购物车字体颜色stytle-->
+    <style name="tv_stytle_gray">
+        <item name="android:textColor">#82121512</item>
+        <item name="android:textSize">18sp</item>
+
+    </style>
 </resources>

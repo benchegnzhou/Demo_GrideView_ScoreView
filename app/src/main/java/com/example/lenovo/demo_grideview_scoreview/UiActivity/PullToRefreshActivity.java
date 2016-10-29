@@ -114,12 +114,7 @@ public class PullToRefreshActivity extends AppCompatActivity {
      * @param refreshView
      */
     private void setPulltorefreshLable(PullToRefreshBase<ListView> refreshView) {
-        //                String label = DateUtils.formatDateTime(
-//                        getApplicationContext(),
-//                        System.currentTimeMillis(),
-//                        DateUtils.FORMAT_SHOW_TIME
-//                                | DateUtils.FORMAT_SHOW_DATE
-//                                | DateUtils.FORMAT_ABBREV_ALL);
+
         //获取系统的时间并显示
         SimpleDateFormat format2 = new SimpleDateFormat("yy-MM-dd H:m:s");
         Date curDate = new Date(System.currentTimeMillis());//获取当前时间

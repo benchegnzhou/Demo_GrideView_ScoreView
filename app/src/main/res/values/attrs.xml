@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 注意 -->
+    <!-- value:不要写成 values-->
+    <!-- string:不要写成 String-->
+
+    <declare-styleable name="SettingItemView">
+        <!-- 用来控制显示的背景图 -->
+        <attr name="backgroundres">
+            <enum name="first" value="0" />
+            <enum name="middle" value="1" />
+            <enum name="last" value="2" />
+        </attr>
+
+        <!-- 用来控制显示的文字 -->
+        <attr name="shoptitle" format="string" />
+        <!-- 用来控制是否显示开关 -->
+        <attr name="shopnum" format="integer" />
+
+
+    </declare-styleable>
+
+
+
+</resources>

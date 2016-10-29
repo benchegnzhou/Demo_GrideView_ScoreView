@@ -118,7 +118,7 @@ public class Custom_Dialog extends Dialog {
 //
 //            }
 //        });
-
+        requestData();    //使用富文本将文字改成多样式
         join_cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {    //手抖，不取消的按钮
@@ -153,7 +153,6 @@ public class Custom_Dialog extends Dialog {
         //2.让某段文字变色
         //baoming_tanceng_message.setText(showTextWithColor("不再参与:寻找_镜头君_助力流动儿童公益",0xFF333333));
         message_text.setText(showTextWithColor("不再参与:" + mMessage, 0xFF1E1E22));
-        requestData();
 
     }
 

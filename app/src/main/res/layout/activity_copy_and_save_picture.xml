@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.lenovo.demo_grideview_scoreview.UiActivity.CopyAndSavePictureActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/demo_copy_and_save_picture"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#10558266">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:src="@drawable/fail_empty_view" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12dp"
+            android:gravity="bottom"
+            android:padding="8dp"
+            android:text="将一个渲染好的布局的副本以图片的形式保存到本地，并且将存储在本地的路径返回回来，也可以打印出来"
+            android:textColor="#DA70D6"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:visibility="gone"
+        android:layout_width="300dp"
+        android:layout_height="400dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="布局文件保存"
+        android:textColor="#FF5584"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="文件读取"
+        android:textColor="#FF5584"
+        android:textSize="16sp" />
+</LinearLayout>
+
+
+</RelativeLayout>

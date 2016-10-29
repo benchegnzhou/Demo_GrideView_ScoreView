@@ -51,8 +51,8 @@
             android:gravity="center"
             android:horizontalSpacing="3dp"
             android:numColumns="3"
-            android:paddingTop="15dp"
             android:paddingBottom="15dp"
+            android:paddingTop="15dp"
             android:scrollbars="none"
             android:stretchMode="columnWidth"
             android:verticalSpacing="3dp" />
@@ -61,9 +61,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#FF441166"
-            android:text="上面的条目选中以后，下面的凸凹木是可以多选的，你可以尝试一下哦！嘻嘻"
             android:background="#996CFBFE"
+            android:text="上面的条目选中以后，下面的凸凹木是可以多选的，你可以尝试一下哦！嘻嘻"
+            android:textColor="#FF441166"
             android:textSize="20sp" />
 
         <com.example.lenovo.demo_grideview_scoreview.UiActivity.NoScrollGridView
@@ -72,123 +72,133 @@
             android:layout_height="300dp"
             android:cacheColorHint="#0000"
             android:columnWidth="80dp"
-            android:listSelector="@android:color/transparent"
             android:gravity="center"
             android:horizontalSpacing="3dp"
+            android:listSelector="@android:color/transparent"
             android:numColumns="3"
-            android:paddingTop="15dp"
             android:paddingBottom="15dp"
+            android:paddingTop="15dp"
             android:scrollbars="none"
             android:stretchMode="columnWidth"
             android:verticalSpacing="3dp" />
-  <Button
-      android:id="@+id/button_main"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:background="#69090402"
-      android:textColor="#FFF"
-      android:textSize="18sp"
-      android:padding="8dp"
-      android:text="我是文字对其测试界面"/>
+
         <Button
-            android:layout_marginTop="12dp"
+            android:id="@+id/button_main"
+            style="@style/btn_stytle_gray"
+            android:text="我是文字对其测试界面" />
+
+        <Button
             android:id="@+id/button_code_scanner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#69090402"
-            android:textColor="#FFF"
-            android:textSize="18sp"
-            android:padding="8dp"
-            android:text="仿微信扫一扫"/>
+            style="@style/btn_stytle_blue"
+            android:text="仿微信扫一扫" />
+
         <Button
-            android:layout_marginTop="12dp"
             android:id="@+id/button_audio_play"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#69090402"
-            android:textColor="#FFF"
-            android:textSize="18sp"
-            android:padding="8dp"
-            android:text="播放声音测试"/>
+            style="@style/btn_stytle_gray"
+            android:text="播放声音测试"
+          />
+
         <Button
-            android:layout_marginTop="12dp"
             android:id="@+id/button_dialog_play"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#69090402"
-            android:textColor="#FFF"
-            android:textSize="18sp"
-            android:padding="8dp"
-            android:text="我是自定义dialog的测试"/>
+            style="@style/btn_stytle_blue"
+            android:text="我是自定义dialog的测试"
+            />
+
         <Button
-            android:layout_marginTop="12dp"
             android:id="@+id/button_spinner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#69090402"
-            android:textColor="#FFF"
-            android:textSize="18sp"
-            android:padding="8dp"
-            android:text="Material Spinner下拉菜单测试"/>
+            style="@style/btn_stytle_gray"
+            android:text="Material Spinner下拉菜单测试"
+             />
+
         <Button
-            android:layout_marginTop="12dp"
             android:id="@+id/button_video_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#69090402"
-            android:textColor="#FFF"
-            android:textSize="18sp"
-            android:padding="8dp"
-            android:text="VideoView网络视频播放的测试"/>
+            style="@style/btn_stytle_blue"
+            android:text="VideoView网络视频播放的测试"
+           />
+
         <Button
-            android:layout_marginTop="12dp"
             android:id="@+id/button_pulltorefresh"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#69090402"
-            android:textColor="#FFF"
-            android:textSize="18sp"
-            android:padding="8dp"
-            android:text="PullToRefresh下拉加载更多测试"/>
+            style="@style/btn_stytle_gray"
+            android:text="PullToRefresh下拉加载更多测试"
+              />
+
         <Button
-            android:layout_marginTop="12dp"
             android:id="@+id/button_fragment_test"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#69090402"
-            android:textColor="#FFF"
-            android:textSize="18sp"
-            android:padding="8dp"
-            android:text="多个fragment切换的测试"/>
+            style="@style/btn_stytle_blue"
+            android:text="多个fragment切换的测试"
+             />
+
         <Button
-            android:layout_marginTop="12dp"
             android:id="@+id/button_picasso"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#69090402"
-            android:textColor="#FFF"
-            android:textSize="18sp"
-            android:padding="8dp"
-            android:text="picasso加载圆形图片"/>
+            style="@style/btn_stytle_gray"
+            android:text="picasso加载圆形图片"
+              />
+
         <Button
-            android:layout_marginTop="12dp"
             android:id="@+id/button_recyclerview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#69090402"
-            android:textColor="#FFF"
-            android:textSize="18sp"
-            android:padding="8dp"
-            android:text="recyclerview的展示"/>
+            style="@style/btn_stytle_blue"
+            android:text="recyclerview的展示  ҉ "
+             />
+
         <Button
-            android:layout_marginTop="12dp"
             android:id="@+id/button_sharesdk"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#69090402"
-            android:textColor="#FFF"
-            android:textSize="18sp"
-            android:padding="8dp"
-            android:text="sharesdk分享的演示✨星✨"/>
+            style="@style/btn_stytle_gray"
+            android:text="sharesdk分享的演示✨星✨"
+            />
+
+        <Button
+            android:id="@+id/button_webview"
+            style="@style/btn_stytle_blue"
+            android:text="高级webview显示"
+              />
+
+        <Button
+            android:id="@+id/button_cardview"
+            style="@style/btn_stytle_gray"
+            android:text="cardview的示例"
+            />
+
+        <Button
+            android:id="@+id/button_picture_save"
+            style="@style/btn_stytle_blue"
+            android:text="复制本地布局的副本，以图片的形式本地保存"
+             />
+
+        <Button
+            android:id="@+id/button_animation_activity"
+            style="@style/btn_stytle_gray"
+            android:text="activity跳转到动画演示"
+             />
+
+        <Button
+            android:id="@+id/button_onconfiguration_changed"
+            style="@style/btn_stytle_blue"
+            android:text="activity屏幕切换实验"
+              />
+
+        <Button
+            android:id="@+id/button_cammertailor"
+            style="@style/btn_stytle_gray"
+            android:text="摄像拍照，并将拍照后的照片按尺寸裁剪"
+             />
+
+        <Button
+            android:id="@+id/button_edit"
+            style="@style/btn_stytle_blue"
+            android:text="edit文本输入测试"
+             />
+
+        <Button
+            android:id="@+id/btn_device_message"
+            style="@style/btn_stytle_gray"
+            android:text="获取手机的设备信息"
+            />
+        <Button
+            android:id="@+id/button_edit_shop_num"
+            style="@style/btn_stytle_blue"
+            android:text="购物车计数实现"
+            />
+
+
     </LinearLayout>
 </ScrollView>

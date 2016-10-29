@@ -37,7 +37,7 @@ public class DialogActivity extends AppCompatActivity implements View.OnClickLis
 //                alertDialog.setMessage("我是主要的信息");
 //                tv_title.setOnClickListener(this);
 //                tv_message.setOnClickListener(this);
-                Custom_Dialog custom_dialog = new Custom_Dialog(DialogActivity.this, "我是主要的信息");
+                Custom_Dialog custom_dialog = new Custom_Dialog(DialogActivity.this, "寻找_镜头君_助力流动儿童公益");
                 custom_dialog.SetOnRegisterCancelClickListener(new Custom_Dialog.OnClickListener_RegisterCancel() {
                     @Override
                     public void onRegisterCancelClick(String text) {

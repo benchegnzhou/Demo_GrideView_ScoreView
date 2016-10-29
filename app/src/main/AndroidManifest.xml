@@ -23,6 +23,18 @@
     <!-- 蓝牙分享所需的权限 -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- 上面是sharesdk的配置 -->
+
+
+    <!-- 这里的是普通的用户权限 -->
+    <!--  在SDCard中创建与删除文件权限  -->
+      
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+      
+    <!--  往SDCard写入数据权限  -->
+      
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+      
 
     <!-- 上面是ZXing扫码的权限 -->
     <application
@@ -51,8 +63,11 @@
         <activity android:name=".UiActivity.SpinnerActivity" />
         <!-- 自定义的对话框 -->
         <activity android:name=".UiActivity.DialogActivity" />
-        <!-- 视频播放的测试 -->
-        <activity android:name=".UiActivity.VideoViewActivity" />
+        <!-- 网络视频播放的测试 定义屏幕可以切换 -->
+        <activity
+            android:name=".UiActivity.VideoViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:screenOrientation="portrait" />
         <!-- 下拉加载更多的测试 -->
         <activity android:name=".UiActivity.PullToRefreshActivity" />
         <!-- 多个fragment条目切换的测试 -->
@@ -62,7 +77,16 @@
         <!-- recyclerview的测试 -->
         <activity android:name=".UiActivity.RecyclerviewActivity" />
 
-        <!-- 下面是sharesdk的配置 -->
+        <!-- 高级webview -->
+        <activity android:name=".UiActivity.AdvanceWebViewActivity" />
+        <!-- cardview的展示 -->
+        <activity android:name=".UiActivity.CardViewActivity" />
+        <!-- 本地布局文件的存储和本地读取的演示 -->
+        <activity android:name=".UiActivity.CopyAndSavePictureActivity" />
+        <!-- Activity的切换动画 -->
+        <activity android:name=".UiActivity.Animatio4nActivity" />
+        <activity android:name=".UiActivity.ActivityAnimation" />
+        <activity android:name=".UiActivity.ActivityAnimation2" />
         <activity
             android:name="com.mob.tools.MobUIShell"
             android:configChanges="keyboardHidden|orientation|screenSize"
@@ -93,14 +117,30 @@
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
+        <!-- android:screenOrientation="portrait"防止屏幕的切换重走生命周期，直接的写死屏幕的方向 -->
         <!-- 支付宝分享回调 -->
         <activity
             android:name=".apshare.ShareEntryActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity android:name=".UiActivity.ShareSDkActivity"></activity>
+        <activity android:name=".UiActivity.ShareSDkActivity" />
+        <activity
+            android:name=".UiActivity.ConfigurationChangeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".UiActivity.CammerTailorActivity" />
+        <activity android:name=".UiActivity.EditTextActivity" />
+        <activity android:name=".UiActivity.ShoppingCartActivity" />
+
+        <!-- <meta-data -->
+        <!-- android:name="UMENG_APPKEY" -->
+        <!-- android:value="0289bde7c6a0c2431d2e30e4a0e53fe0" /> -->
+
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}" />
+
+        <activity android:name=".UiActivity.DeviceMessageShowActivity"></activity>
     </application>
 
 </manifest>

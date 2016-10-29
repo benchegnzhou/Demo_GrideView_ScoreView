@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.lenovo.demo_grideview_scoreview.UiActivity.CardViewActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="12dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="6dp">
+
+        <TextView
+            android:id="@+id/cardview_demo_tv"
+            android:layout_width="match_parent"
+            android:textColor="#9932CC"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+    <!--cardview本身是继承framlayout的，在使用的方法上和framlayout是一样的，同时他也是5.0后的新控件，具有阴影圆角等功能-->
+    <!--app:cardElevation="12dp"  设置阴影的大小-->
+    <!--app:cardCornerRadius="8dp"  设置圆角-->
+    <!--app:cardUseCompatPadding="true"  使用padding值，配合contentPadding使用-->
+    <!--app:contentPadding="6dp"   使用padding值，配合cardUseCompatPadding使用-->
+</RelativeLayout>

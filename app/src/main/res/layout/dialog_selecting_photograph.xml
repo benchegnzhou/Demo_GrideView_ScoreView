@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/helpme_activities_eject_3"
+    android:clickable="true"
+    android:orientation="vertical"
+    >
+
+    <!-- 拍照 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#55125488"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/bt_photograph"
+            style="@style/selecting_photograph_dialog_bt"
+            android:background="@drawable/helpme_activities_eject_1"
+            android:text="@string/photograph"
+            />
+
+        <ImageView
+            style="@style/line_least_eeeeee"
+            android:contentDescription="@string/line"
+            />
+        <!--android:contentDescription="@string/line"开启这个功能，对于实力不好的人可以在辅助功能中设置，开启语音朗读功能，朗读设置的文字-->
+
+        <Button
+            android:id="@+id/bt_photoalbum"
+            style="@style/selecting_photograph_dialog_bt"
+            android:background="@drawable/helpme_activities_eject_2"
+            android:text="@string/photoAlbum"
+            />
+
+        <ImageView
+            style="@style/line_least_eeeeee"
+            android:layout_height="15dp"
+            android:contentDescription="@string/line"
+            />
+
+        <Button
+            android:id="@+id/bt_cancel"
+            style="@style/selecting_photograph_dialog_bt"
+            android:background="@drawable/helpme_activities_eject_3"
+            android:text="取消"
+            android:textColor="#254525"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

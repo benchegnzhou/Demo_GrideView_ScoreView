@@ -8,39 +8,148 @@ android {
         applicationId "com.example.lenovo.demo_grideview_scoreview"
         minSdkVersion 15
         targetSdkVersion 24
-        versionCode 1
+        versionCode 3
         versionName "1.0"
+//        多渠道打包
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "default_channel"]
     }
+
+
     buildTypes {
         release {
+            //开启混淆
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-}
 
-dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:24.2.0'
-    compile 'com.android.support:recyclerview-v7:24+'
-    compile 'com.android.support:cardview-v7:24+'
-    compile 'com.android.support:design:24+'
-    //----------------------------添加下拉更多------------------------------
-    //----------------------------下拉列表-------------------------------------
-    compile 'com.jaredrummler:material-spinner:1.0.4'
-    //------------------------这个是注解类的依赖-------------------------------
-    compile 'com.jakewharton:butterknife:8.0.1'
-    // -------------------- 以下三个库是必须依赖的 ----------------------------
-    compile 'com.google.zxing:core:3.2.1'
-    compile 'cn.bingoogolapple:bga-qrcodecore:1.1.0@aar'
-    compile 'cn.bingoogolapple:bga-zxing:1.1.0@aar'
-    // -------------------- 以上三个库是必须依赖的 ----------------------------
-    //---------------------这个是下拉刷新的依赖---------------------
-    compile project(':pulltorefreshlibrary2')
-    // ---------------------- 图片框架 ----------------------------
-    compile 'com.squareup.picasso:picasso:2.3.2'
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
 
-    //baserecyclerview的依赖库
-    compile project(':baserecyclerviewlibrary')
+
+
+
+    signingConfigs {
+        debug {
+//            storeFile file("appkey_gridViewDemo.jks")
+//            storePassword "1107472286"
+//            keyAlias "DemoGridview"
+//            keyPassword "1107472286"
+        }
+
+        release {
+            storeFile file("appkey_gridViewDemo.jks")
+            storePassword "1107472286"
+            keyAlias "DemoGridview"
+            keyPassword "1107472286"
+        }
+    }
+    productFlavors {
+        default_channel {}
+        wandoujia {}
+        _360 {}
+        yingyongbao {}
+        xiaomi {}
+        baidu {}
+        huawei {}
+        jifeng {}
+    }
+
+    productFlavors.all {
+        flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+
+    //打包完成后生成的apk文件名在这里配置
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                File outputDirectory = new File(outputFile.parent);
+                def fileName
+                if (variant.buildType.name == "release") {
+//                    fileName = "app_v${defaultConfig.versionName}_${packageTime()}_${variant.productFlavors[0].name}.apk"
+                    fileName = "zbc_${variant.productFlavors[0].name}.apk"
+                } else {
+//                    fileName = "app_v${defaultConfig.versionName}_${packageTime()}_beta.apk"
+                    fileName = "zbc_${variant.productFlavors[0].name}_beta.apk"
+                }
+                output.outputFile = new File(outputDirectory, fileName)
+            }
+        }
+    }
+
+//全部的多去到
+/*productFlavors {
+    yirenbang {}
+    _91store {}
+    _360 {}
+    baidu {}
+    xiaomi {}
+    wandoujia {}
+    yingyongbao {}
+    coolchuan {}
+    anzhi {}
+    huawei {}
+    samsung {}
+
+    anzhuo {}
+    vivo {}
+    oppo {}
+    lenovo {}
+    meizu {}
+    jinli {}
+    tianyi {}
+    yidongMM {}
+    mumayi {}
+}*/
+
+//Zxing在使用的时候可能会报过时api的错误
+//这个是ZXing有关的,可以用log的形式精确定位bug出现位置
+//allprojects {
+//    gradle.projectsEvaluated {
+//        tasks.withType(JavaCompile) {
+//            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+//        }
+//    }
+//}
+//上面和zxing的调试有关，可以打印详细的log
+
+
+    dependencies {
+        compile fileTree(include: ['*.jar'], dir: 'libs')
+        testCompile 'junit:junit:4.12'
+        compile 'com.android.support:appcompat-v7:24.2.0'
+        compile 'com.android.support:recyclerview-v7:24+'
+        compile 'com.android.support:cardview-v7:24+'
+        compile 'com.android.support:design:24+'
+        //----------------------------添加下拉更多------------------------------
+        //----------------------------下拉列表-------------------------------------
+        compile 'com.jaredrummler:material-spinner:1.0.4'
+        //------------------------这个是注解类的依赖-------------------------------
+        compile 'com.jakewharton:butterknife:7.0.1'
+        // -------------------- 以下三个库是必须依赖的 ----------------------------
+        compile 'com.google.zxing:core:3.2.1'
+        compile 'cn.bingoogolapple:bga-qrcodecore:1.1.0@aar'
+        compile 'cn.bingoogolapple:bga-zxing:1.1.0@aar'
+        // -------------------- 以上三个库是必须依赖的 ----------------------------
+        //---------------------这个是下拉刷新的依赖---------------------
+        compile project(':pulltorefreshlibrary2')
+        // ---------------------- 图片框架 ----------------------------
+        compile 'com.squareup.picasso:picasso:2.3.2'
+
+        //baserecyclerview的依赖库
+        compile project(':baserecyclerviewlibrary')
+
+        //谷歌提供的百分比适配方案
+        compile 'com.zhy:autolayout:1.4.3'
+
+        //视频播放器superplayer
+        compile project(':superplayerlibrary')
+        compile 'com.supercwn.superrecycleview:superlibrary:1.2.0'
+
+        //单张照片选择
+        compile 'com.facebook.fresco:fresco:0.10.0'
+    }
 }

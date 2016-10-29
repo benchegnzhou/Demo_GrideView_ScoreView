@@ -15,4 +15,5 @@ public class mApplication extends Application {
         mContext=getApplicationContext();
         super.onCreate();
     }
+
 }

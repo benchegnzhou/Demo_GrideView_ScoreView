@@ -115,4 +115,25 @@ public class DataSever {
         return list;
     }
 
+    /**
+     * 获取更多数据
+     * @return
+     */
+    public static List<MultipleItem> getMoreMultipleItemData() {
+        List<MultipleItem> list = new ArrayList<>();
+        for (int i = 0; i < 3; i++) {
+            MultipleItem stu = new MultipleItem(MultipleItem.text, "小学生" + i);
+            stu.setItemType(MultipleItem.text);
+            list.add(stu);
+        }
+
+        MultipleItem imageItem2 = new MultipleItem();
+        imageItem2.setItemType(MultipleItem.twnBigImage);
+        ArrayList<String> iconList2 = new ArrayList<>();
+        iconList2.add("http://192.168.0.14/qwer4.jpg");
+        iconList2.add("http://192.168.0.14/qwer5.jpg");
+        imageItem2.setList(iconList2);
+        list.add(imageItem2);
+        return  list;
+    }
 }

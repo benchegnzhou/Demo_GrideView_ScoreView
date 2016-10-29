@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+
+    >
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/layout_title_bar_right_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        />
+
+    <GridView
+        android:id="@+id/multiple_picture_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include"
+        android:layout_margin="10dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:verticalSpacing="10dp"
+        />
+
+
+</RelativeLayout>

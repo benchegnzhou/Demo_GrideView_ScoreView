@@ -9,5 +9,17 @@
     <string name="tv_view">这是一个电视剧界面</string>
     <string name="anime_view">这是一个动漫界面</string>
     <string name="variety_view">这是一个综艺界面</string>
+    <string name="network_err">network erro</string>
+
+    <!-- 图片裁剪，dialog -->
+    <string name="cancel">取消</string>
+    <string name="photoAlbum">从相册选取</string>
+    <string name="line">取消</string>
+    <string name="photograph">拍照上传</string>
+
+
+    <item name="tag_first" type="id" />
+    <item name="tag_second" type="id" />
+    <item name="tag_third" type="id" />
 
 </resources>

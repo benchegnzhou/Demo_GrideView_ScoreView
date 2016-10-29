@@ -13,15 +13,17 @@
         android:layout_height="wrap_content">
 
         <ImageView
+            android:layout_marginLeft="8dp"
             android:id="@+id/icon_iv_picasso"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="#FFFFFF"
+            android:background="#00FFFFFF"
             android:scaleType="centerCrop" />
         <TextView
             android:layout_width="match_parent"
             android:gravity="center"
             android:textSize="30px"
+            android:layout_marginRight="12dp"
             android:text="我是汪涵的粉丝"
             android:textColor="#3399ff"
             android:layout_height="match_parent" />

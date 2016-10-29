@@ -17,7 +17,7 @@ public class PicassoActivity extends AppCompatActivity {
         ImageView icon = (ImageView) findViewById(R.id.icon_iv_picasso);
 
         Picasso.with(PicassoActivity.this).
-                load("http://192.168.0.14/qwer.jpg").
+                load("http://i.imgur.com/EykR2bR.jpg").
                 transform(new CircleTransform()).
                 placeholder(R.mipmap.photo1).
                 error(R.mipmap.photo1).

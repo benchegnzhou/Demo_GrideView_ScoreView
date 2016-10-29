@@ -9,4 +9,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.lenovo.demo_grideview_scoreview.UiActivity.VideoViewActivity">
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/act_recycle_super_video_recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/full_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:gravity="center"
+        android:visibility="gone" />
 </RelativeLayout>

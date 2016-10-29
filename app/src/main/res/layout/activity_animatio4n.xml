@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.demo_grideview_scoreview.UiActivity.Animatio4nActivity">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_override_pendingtransition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#E6E6FA"
+        android:padding="8dp"
+        android:text="使用overridePendingTransition的方式进行切换"
+        android:textColor="#800080"
+        android:textSize="16sp" />
+    <!--文字解释-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#FFC0CB"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="overridePendingTransition方法需要在startAtivity方法或者是finish方法调用之后立即执行
+参数enterAnim表示的是从Activity a跳转到Activity b，进入b时的动画效果
+参数exitAnim表示的是从Activity a跳转到Activity b，离开a时的动过效果
+若进入b或者是离开a时不需要动画效果，则可以传值为0"
+        android:textColor="#000080"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/btn_makescenetransition_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#E6E6FA"
+        android:padding="8dp"
+        android:text="使用ActivityOptions.makeSceneTransitionAnimation的方式进行切换"
+        android:textColor="#800080"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_overridepending"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#E6E6FA"
+        android:padding="8dp"
+        android:text="使用overridePendingTransition的方式进行切换"
+        android:textColor="#800080"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#E6E6FA"
+        android:padding="8dp"
+        android:text="SD卡的权限查询"
+        android:textColor="#800080"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#E6E6FA"
+        android:padding="10dp"
+        android:text="SD卡的权限查询,状态将会在这里显示"
+        android:textColor="#800080"
+        android:textSize="16sp" />
+
+</LinearLayout>
+</ScrollView>

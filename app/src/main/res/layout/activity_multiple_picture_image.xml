@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:orientation="vertical"
+
+    >
+
+    <include
+        layout="@layout/layout_title_bar_right_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        />
+
+    <GridView
+        android:id="@+id/multiple_picture_image_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_weight="1"
+        android:horizontalSpacing="@dimen/dp_10"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:verticalSpacing="@dimen/dp_10"
+        />
+
+    <Button
+        android:id="@+id/multiple_picture_image_button"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_100"
+        android:background="@drawable/shape_user_header_bg"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="#fa193e"
+        android:textSize="@dimen/dp_30"
+        />
+
+
+</LinearLayout>

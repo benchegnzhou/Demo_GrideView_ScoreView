@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.lenovo.demo_grideview_scoreview.UiActivity.BitmapCopyActivity">
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_primary"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/photo1" />
+        <ImageView
+            android:id="@+id/iv_copy"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+
+            />
+        <Button
+            android:id="@+id/but_copy_imageview"
+            android:layout_width="match_parent"
+            android:text="布局拷贝"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/but_clear_imageview"
+            android:layout_width="match_parent"
+            android:text="清除View"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

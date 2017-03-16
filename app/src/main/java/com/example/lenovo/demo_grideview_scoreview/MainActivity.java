@@ -1,8 +1,8 @@
 package com.example.lenovo.demo_grideview_scoreview;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.AdvanceWebViewActivity;
@@ -17,12 +18,16 @@ import com.example.lenovo.demo_grideview_scoreview.UiActivity.Animatio4nActivity
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.AudioActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.CammerTailorActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.CardViewActivity;
+import com.example.lenovo.demo_grideview_scoreview.UiActivity.CircleImageViewActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.ConfigurationChangeActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.CopyAndSavePictureActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.DeviceMessageShowActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.DialogActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.EditTextActivity;
+import com.example.lenovo.demo_grideview_scoreview.UiActivity.EncryptionActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.FragmentChangeActivity;
+import com.example.lenovo.demo_grideview_scoreview.UiActivity.NoScrollGridView;
+import com.example.lenovo.demo_grideview_scoreview.UiActivity.PicassoActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.PullToRefreshActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.RecyclerviewActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.ScannerActivity;
@@ -31,12 +36,61 @@ import com.example.lenovo.demo_grideview_scoreview.UiActivity.ShoppingCartActivi
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.SpinnerActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.TextViewTestActivity;
 import com.example.lenovo.demo_grideview_scoreview.UiActivity.VideoViewActivity;
-import com.example.lenovo.demo_grideview_scoreview.UiActivity.PicassoActivity;
 import com.example.lenovo.demo_grideview_scoreview.Utils.ToastUtils;
 
 import java.util.ArrayList;
 
+import butterknife.Bind;
+import butterknife.ButterKnife;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+    @Bind(R.id.gview_second)
+    NoScrollGridView gviewSecond;
+    @Bind(R.id.button_main)
+    Button buttonMain;
+    @Bind(R.id.button_code_scanner)
+    Button buttonCodeScanner;
+    @Bind(R.id.button_audio_play)
+    Button buttonAudioPlay;
+    @Bind(R.id.button_dialog_play)
+    Button buttonDialogPlay;
+    @Bind(R.id.button_spinner)
+    Button buttonSpinner;
+    @Bind(R.id.button_video_view)
+    Button buttonVideoView;
+    @Bind(R.id.button_pulltorefresh)
+    Button buttonPulltorefresh;
+    @Bind(R.id.button_fragment_test)
+    Button buttonFragmentTest;
+    @Bind(R.id.button_picasso)
+    Button buttonPicasso;
+    @Bind(R.id.button_recyclerview)
+    Button buttonRecyclerview;
+    @Bind(R.id.button_sharesdk)
+    Button buttonSharesdk;
+    @Bind(R.id.button_webview)
+    Button buttonWebview;
+    @Bind(R.id.button_cardview)
+    Button buttonCardview;
+    @Bind(R.id.button_picture_save)
+    Button buttonPictureSave;
+    @Bind(R.id.button_animation_activity)
+    Button buttonAnimationActivity;
+    @Bind(R.id.button_onconfiguration_changed)
+    Button buttonOnconfigurationChanged;
+    @Bind(R.id.button_cammertailor)
+    Button buttonCammertailor;
+    @Bind(R.id.button_edit)
+    Button buttonEdit;
+    @Bind(R.id.btn_device_message)
+    Button btnDeviceMessage;
+    @Bind(R.id.button_edit_shop_num)
+    Button buttonEditShopNum;
+    @Bind(R.id.btn_encryption)
+    Button btnEncryption;
+    @Bind(R.id.button_circle_imageview)
+    Button buttonCircleImageview;
     private String[] iconName = {"通讯录", "日历", "照相机", "时钟", "游戏", "短信", "铃声",
             "设置", "语音", "天气", "浏览器", "视频", "热门"};
     /**
@@ -49,54 +103,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      */
     private ArrayList<Integer> list = new ArrayList<>();
     private AdapterView<?> mParent;
-    private Button mButton;
-    private Button codeScanner;
-    private Button audioPlayer;
-    private Button customDialog;
-    private Button btn_spinner;
-    private Button button_video_view;
-    private Button button_pulltorefresh;
-    private Button button_changeFragment;
-    private Button button_picasso;
-    private Button button_recyclerview;
-    private Button button_sharesdk;
-    private Button button_webview;
-    private Button button_cardview;
-    private Button button_picture_save;
-    private Button button_animation_activity;
-    private Button button_onconfiguration_changed;
-    private Button button_cammertailor;
-    private Button button_edit;
-    private Button button_edit_shop_num;
-    private Button btn_device_message;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //mifalater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
         final GridView gridViewF = (GridView) findViewById(R.id.gview_first);
         GridView gridViewS = (GridView) findViewById(R.id.gview_second);
-        mButton = (Button) findViewById(R.id.button_main);
-        codeScanner = (Button) findViewById(R.id.button_code_scanner);
-        audioPlayer = (Button) findViewById(R.id.button_audio_play);
-        customDialog = (Button) findViewById(R.id.button_dialog_play);
-        btn_spinner = (Button) findViewById(R.id.button_spinner);
-        button_video_view = (Button) findViewById(R.id.button_video_view);
-        button_pulltorefresh = (Button) findViewById(R.id.button_pulltorefresh);
-        button_changeFragment = (Button) findViewById(R.id.button_fragment_test);
-        button_picasso = (Button) findViewById(R.id.button_picasso);
-        button_recyclerview = (Button) findViewById(R.id.button_recyclerview);
-        button_sharesdk = (Button) findViewById(R.id.button_sharesdk);
-        button_webview = (Button) findViewById(R.id.button_webview);
-        button_cardview = (Button) findViewById(R.id.button_cardview);
-        button_picture_save = (Button) findViewById(R.id.button_picture_save);
-        button_animation_activity = (Button) findViewById(R.id.button_animation_activity);
-        button_onconfiguration_changed = (Button) findViewById(R.id.button_onconfiguration_changed);
-        button_cammertailor = (Button) findViewById(R.id.button_cammertailor);
-        button_edit = (Button) findViewById(R.id.button_edit);
-        button_edit_shop_num = (Button) findViewById(R.id.button_edit_shop_num);
-        btn_device_message = (Button) findViewById(R.id.btn_device_message);
+
 
         initListener();
         final mAdapter adapter = new mAdapter();
@@ -138,26 +155,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void initListener() {
-        mButton.setOnClickListener(this);
-        codeScanner.setOnClickListener(this);
-        audioPlayer.setOnClickListener(this);
-        customDialog.setOnClickListener(this);
-        btn_spinner.setOnClickListener(this);
-        button_video_view.setOnClickListener(this);
-        button_pulltorefresh.setOnClickListener(this);
-        button_changeFragment.setOnClickListener(this);
-        button_picasso.setOnClickListener(this);
-        button_recyclerview.setOnClickListener(this);
-        button_sharesdk.setOnClickListener(this);
-        button_webview.setOnClickListener(this);
-        button_cardview.setOnClickListener(this);
-        button_picture_save.setOnClickListener(this);
-        button_animation_activity.setOnClickListener(this);
-        button_onconfiguration_changed.setOnClickListener(this);
-        button_cammertailor.setOnClickListener(this);
-        button_edit.setOnClickListener(this);
-        button_edit_shop_num.setOnClickListener(this);
-        btn_device_message.setOnClickListener(this);
+        buttonMain.setOnClickListener(this);
+        buttonCodeScanner.setOnClickListener(this);
+        buttonAudioPlay.setOnClickListener(this);
+        buttonDialogPlay.setOnClickListener(this);
+        buttonSpinner.setOnClickListener(this);
+        buttonVideoView.setOnClickListener(this);
+        buttonPulltorefresh.setOnClickListener(this);
+        buttonFragmentTest.setOnClickListener(this);
+        buttonPicasso.setOnClickListener(this);
+        buttonRecyclerview.setOnClickListener(this);
+        buttonSharesdk.setOnClickListener(this);
+        buttonWebview.setOnClickListener(this);
+        buttonCardview.setOnClickListener(this);
+        buttonPictureSave.setOnClickListener(this);
+        buttonAnimationActivity.setOnClickListener(this);
+        buttonOnconfigurationChanged.setOnClickListener(this);
+        buttonCammertailor.setOnClickListener(this);
+        buttonEdit.setOnClickListener(this);
+        buttonEditShopNum.setOnClickListener(this);
+        btnDeviceMessage.setOnClickListener(this);
+        btnEncryption.setOnClickListener(this);
+        buttonCircleImageview.setOnClickListener(this);
     }
 
     /**
@@ -316,6 +335,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_device_message:
                 Intent deviceMessageIntent = new Intent(MainActivity.this, DeviceMessageShowActivity.class);
                 startActivity(deviceMessageIntent);
+                break;
+
+            //使用AES加密测试
+            case R.id.btn_encryption:
+                Intent encryptionIntent = new Intent(MainActivity.this, EncryptionActivity.class);
+                startActivity(encryptionIntent);
+                break;
+
+            //圆角图片加载测试
+            case R.id.button_circle_imageview:
+                Intent circleImageViewIntent = new Intent(MainActivity.this, CircleImageViewActivity.class);
+                startActivity(circleImageViewIntent);
                 break;
 
 

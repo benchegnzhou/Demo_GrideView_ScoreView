@@ -200,5 +200,17 @@
             />
 
 
+        <Button
+            android:id="@+id/btn_encryption"
+            style="@style/btn_stytle_gray"
+            android:text="用户信息加密存储"
+            />
+        <Button
+            android:id="@+id/button_circle_imageview"
+            style="@style/btn_stytle_blue"
+            android:text="自定义圆角图片实现头像的加载"
+            />
+
+
     </LinearLayout>
 </ScrollView>

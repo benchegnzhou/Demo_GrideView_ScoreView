@@ -140,7 +140,9 @@
             android:name="UMENG_CHANNEL"
             android:value="${UMENG_CHANNEL_VALUE}" />
 
-        <activity android:name=".UiActivity.DeviceMessageShowActivity"></activity>
+        <activity android:name=".UiActivity.DeviceMessageShowActivity" />
+        <activity android:name=".UiActivity.EncryptionActivity" />
+        <activity android:name=".UiActivity.CircleImageViewActivity"></activity>
     </application>
 
 </manifest>

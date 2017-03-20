@@ -1,2 +1,2 @@
-include ':app', ':pulltorefreshlibrary2', ':pulltorefreshlibrary', ':baserecyclerviewlibrary', ':superplayerlibrary', ':ijkplayerlibrary'
+include ':app', ':pulltorefreshlibrary2', ':pulltorefreshlibrary', ':baserecyclerviewlibrary', ':superplayerlibrary', ':ijkplayerlibrary','demomore'
 project(':pulltorefreshlibrary2').projectDir = new File('pulltorefreshlibrary')

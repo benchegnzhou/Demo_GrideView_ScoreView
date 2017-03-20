@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_demo_ok"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.demomore.ui.DemoOkActivity">
+    <Button
+        android:id="@+id/btn_Synchronization_get"
+        style="@style/btn_stytle_gray"
+        android:text="get同步请求" />
+
+    <Button
+        android:id="@+id/btn_asynchronization_get"
+        style="@style/btn_stytle_blue"
+        android:text="get异步请求" />
+
+    <Button
+        android:id="@+id/button_audio_play"
+        style="@style/btn_stytle_gray"
+        android:text="播放声音测试"
+        />
+
+    <Button
+        android:id="@+id/button_dialog_play"
+        style="@style/btn_stytle_blue"
+        android:text="我是自定义dialog的测试"
+        />
+
+    <Button
+        android:id="@+id/button_spinner"
+        style="@style/btn_stytle_gray"
+        android:text="Material Spinner下拉菜单测试"
+        />
+
+    <Button
+        android:id="@+id/button_video_view"
+        style="@style/btn_stytle_blue"
+        android:text="VideoView网络视频播放的测试"
+        />
+
+    <Button
+        android:id="@+id/button_pulltorefresh"
+        style="@style/btn_stytle_gray"
+        android:text="PullToRefresh下拉加载更多测试"
+        />
+</RelativeLayout>

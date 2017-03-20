@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Demo_GrideView_ScoreView.iml" filepath="$PROJECT_DIR$/Demo_GrideView_ScoreView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/baserecyclerviewlibrary/baserecyclerviewlibrary.iml" filepath="$PROJECT_DIR$/baserecyclerviewlibrary/baserecyclerviewlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demomore/demomore.iml" filepath="$PROJECT_DIR$/demomore/demomore.iml" />
       <module fileurl="file://$PROJECT_DIR$/ijkplayerlibrary/ijkplayerlibrary.iml" filepath="$PROJECT_DIR$/ijkplayerlibrary/ijkplayerlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/pulltorefreshlibrary/pulltorefreshlibrary.iml" filepath="$PROJECT_DIR$/pulltorefreshlibrary/pulltorefreshlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/pulltorefreshlibrary/pulltorefreshlibrary2.iml" filepath="$PROJECT_DIR$/pulltorefreshlibrary/pulltorefreshlibrary2.iml" />

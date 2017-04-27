@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_database_debug_address_get"
+            style="@style/btn_stytle_blue"
+            android:text="获取数据库调试的网络地址" />
+
+        <Button
+            android:id="@+id/btn_add_new"
+            style="@style/btn_stytle_gray"
+            android:text="在数据库中增加一条记录" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            style="@style/btn_stytle_blue"
+            android:text="在数据库中删除最后一条记录" />
+
+        <Button
+            android:id="@+id/btn_updata"
+            style="@style/btn_stytle_gray"
+            android:text="在数据库中修改最后一条记录" />
+
+        <Button
+            android:id="@+id/btn_query_all"
+            style="@style/btn_stytle_blue"
+            android:text="获取数据所有内容并打印" />
+
+        <Button
+            android:id="@+id/btn_query_keyword"
+            style="@style/btn_stytle_gray"
+            android:text="从数据获取制定条件内容并打印" />
+
+        <TextView
+            android:id="@+id/tv_mesage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

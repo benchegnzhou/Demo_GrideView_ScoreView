@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_data_file_save"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.demomore.ui.DataFileSaveActivity">
+<EditText
+    android:id="@+id/et_savecontent_test"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:hint="输入需要存储的内容点击存储"/>
+
+    <Button
+        android:id="@+id/bt_saveappend_test"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="追加存储"/>
+    <Button
+        android:id="@+id/bt_readcontent_test"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="读取数据"/>
+
+    <TextView
+        android:id="@+id/tv_content_save_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

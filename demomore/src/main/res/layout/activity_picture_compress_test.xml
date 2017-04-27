@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_picture_compress_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.demomore.ui.PictureCompressTestActivity">
+    <Button
+        android:id="@+id/btn_chose_pic"
+        style="@style/btn_stytle_gray"
+        android:text="选择图片" />
+    <Button
+        android:id="@+id/btn_compress_start"
+        style="@style/btn_stytle_blue"
+        android:text="开始压缩" />
+
+
+
+</LinearLayout>

@@ -3,7 +3,14 @@ package com.example.demomore.utils;
 import android.content.Context;
 import android.os.Environment;
 
+import com.example.demomore.application.MApplication;
+
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
 
 /**
  * Created by lenovo on 2016/10/10.
@@ -15,7 +22,7 @@ public class FileUtils {
      * Environment.getExternalStorageDirectory()getExternalStorageDirectory()//获取SD卡根目录
      */
     public static String sAbsolutePath =Environment.getExternalStorageDirectory().getPath();  //获取内置存储卡的路径
-    public static String iconDir = sAbsolutePath + "/gridviewDemo/pic/";
+    public static String iconDir = sAbsolutePath + "/Zhoubencheng_Demo/pic";                  //创建公司表示的文件夹层级
 
 
     /**
@@ -28,7 +35,8 @@ public class FileUtils {
      */
     public static String getSDCardPath(Context pContext) {
         if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
-            String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/gridviewDemo/pic/";
+            //String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/zhengtushuchuang_dir/pic";
+            String path = Environment.getExternalStorageDirectory().getPath().toString() + "/zhoubencheng_dir/Pictures";
             File PathDir = new File(path);
             if (!PathDir.exists()) {
                 PathDir.mkdirs();
@@ -38,4 +46,32 @@ public class FileUtils {
             return pContext.getCacheDir().getAbsolutePath();
         }
     }
+
+
+    /***
+     * 将大文件拷贝到sd卡目录
+     * 待测试
+     * @param strOutFileName
+     * @throws IOException
+     */
+    private void copyBigDataToSD(String strOutFileName) throws IOException
+    {
+        InputStream myInput;
+        OutputStream myOutput = new FileOutputStream(strOutFileName);
+        myInput = MApplication.sAppContext.getAssets().open("RobotoCondensed-Regular.ttf");
+        byte[] buffer = new byte[1024];
+        int length = myInput.read(buffer);
+        while(length > 0)
+        {
+            myOutput.write(buffer, 0, length);
+            length = myInput.read(buffer);
+        }
+
+        myOutput.flush();
+        myInput.close();
+        myOutput.close();
+    }
+
+
+
 }

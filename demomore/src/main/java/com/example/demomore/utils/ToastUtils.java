@@ -2,7 +2,8 @@ package com.example.demomore.utils;
 
 import android.widget.Toast;
 
-import com.example.lenovo.demo_grideview_scoreview.mApplication;
+import com.example.demomore.application.MApplication;
+
 
 /**
  * Created by lenovo on 2016/8/31.
@@ -16,10 +17,10 @@ public class ToastUtils {
 
         public static Toast toast;
 
-        public static void showToast(String text) {
+        public static void showToastShort(String text) {
             // 如果toast为空就创建
             if (toast == null) {
-                toast = Toast.makeText(mApplication.mContext, text, Toast.LENGTH_SHORT);
+                toast = Toast.makeText(MApplication.sAppContext, text, Toast.LENGTH_SHORT);
             } else {
                 toast.setText(text); // 如果不为空就修改显示的内容
             }
@@ -29,5 +30,19 @@ public class ToastUtils {
             toast.show();
 
         }
+
+    public static void showToastLong(String text) {
+        // 如果toast为空就创建
+        if (toast == null) {
+            toast = Toast.makeText(MApplication.sAppContext, text, Toast.LENGTH_LONG);
+        } else {
+            toast.setText(text); // 如果不为空就修改显示的内容
+        }
+
+        // 显示土司
+
+        toast.show();
+
+    }
 
     }

@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -31,6 +31,42 @@
         <item name="android:textSize">18sp</item>
         <item name="android:padding">8dp</item>
         <item name="android:layout_marginTop">12dp</item>
-
     </style>
+
+
+    <!--欢迎界面的样式，首次进入无黑色-->
+    <style name="welcomeTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="19">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/welcome</item>
+    </style>
+
+
+        <!--自定义的dialog-->
+        <style name="ErroDialog" parent="@android:style/Theme.Dialog">
+            <!-- 设置dialog的背景为白色 -->
+            <item name="android:windowBackground">@android:color/white</item>
+            <!-- 边框 @null不设置 -->
+            <item name="android:windowFrame">@null</item>
+            <!-- 是否覆盖内容 -->
+            <item name="android:windowContentOverlay">@null</item>
+            <!-- 动画执行样式 -->
+            <item name="android:windowAnimationStyle">@null</item>
+
+            <!-- 是否设置显示window阴影 -->
+            <item name="android:backgroundDimEnabled">true</item>
+            <!-- 设置透明透明 -->
+            <item name="android:windowIsTranslucent">true</item>
+            <!-- 是不是显示标题栏 -->
+            <item name="android:windowNoTitle">true</item>
+            <!-- 点击空白处是不是取消dialog -->
+            <item name="android:windowCloseOnTouchOutside">true</item>
+        </style>
+
+
+
+
 </resources>

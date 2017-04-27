@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_demo_ok"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.demomore.ui.DemoOkActivity">
+
     <Button
         android:id="@+id/btn_Synchronization_get"
         style="@style/btn_stytle_gray"
@@ -16,32 +17,27 @@
         android:text="get异步请求" />
 
     <Button
-        android:id="@+id/button_audio_play"
+        android:id="@+id/btn_post_keyvalue"
         style="@style/btn_stytle_gray"
-        android:text="播放声音测试"
-        />
+        android:text=" Post上传键值对" />
 
     <Button
-        android:id="@+id/button_dialog_play"
+        android:id="@+id/btn_post_uploadfiles"
         style="@style/btn_stytle_blue"
-        android:text="我是自定义dialog的测试"
-        />
+        android:text="Post异步上传文件" />
 
     <Button
-        android:id="@+id/button_spinner"
+        android:id="@+id/btn_downfiles"
         style="@style/btn_stytle_gray"
-        android:text="Material Spinner下拉菜单测试"
-        />
+        android:text="使用post方式的文件下载,支持多线程断点续传" />
 
     <Button
         android:id="@+id/button_video_view"
         style="@style/btn_stytle_blue"
-        android:text="VideoView网络视频播放的测试"
-        />
+        android:text="VideoView网络视频播放的测试" />
 
     <Button
         android:id="@+id/button_pulltorefresh"
         style="@style/btn_stytle_gray"
-        android:text="PullToRefresh下拉加载更多测试"
-        />
-</RelativeLayout>
+        android:text="PullToRefresh下拉加载更多测试" />
+</LinearLayout>

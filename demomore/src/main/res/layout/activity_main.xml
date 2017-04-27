@@ -1,13 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
     tools:context="com.example.demomore.MainActivity">
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+    <Button
+        android:id="@+id/button_okhttp_go"
+        style="@style/btn_stytle_blue"
+        android:text="okhttp的测试" />
+
+    <Button
+        android:id="@+id/button_test_transdata"
+        style="@style/btn_stytle_gray"
+        android:text="fragment数据回传的测试" />
+
+    <Button
+        android:id="@+id/button_save_data_test"
+        style="@style/btn_stytle_blue"
+        android:text="文件流存储数据" />
+
+    <Button
+        android:id="@+id/button_vertical_scroll_textview"
+        style="@style/btn_stytle_gray"
+        android:text="高仿京东的竖直滚动的广告" />
+
+    <Button
+        android:id="@+id/button_get_permission_test"
+        style="@style/btn_stytle_blue"
+        android:text="6.0 机器获取对应权限测试" />
+
+    <Button
+        android:id="@+id/button_database"
+        style="@style/btn_stytle_gray"
+        android:text="SQLite 数据库调试" />
+
+    <Button
+        android:id="@+id/button_change_status_test"
+        style="@style/btn_stytle_blue"
+        android:text="Activity中切换不同状态页" />
+
+    <Button
+        android:id="@+id/button_asynctask_test"
+        style="@style/btn_stytle_gray"
+        android:text="AsyncTask 异步任务测试" />
+    <Button
+        android:id="@+id/button_picture_compress"
+        style="@style/btn_stytle_blue"
+        android:text="android 中图片压缩测试" />
+</LinearLayout>

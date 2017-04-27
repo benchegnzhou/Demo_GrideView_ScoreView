@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.demomore">
+
     <!-- 下面是ZXing扫码的权限 -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -33,20 +34,35 @@
     <!--  往SDCard写入数据权限  -->
       
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
+        android:name=".application.MApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ui.DemoOkActivity" />
+        <activity android:name=".ui.StartFromFragmentActivity" />
+        <activity android:name=".ui.ThirdActivity" />
+        <activity android:name=".ui.FragmentActivity" />
+        <activity android:name=".ui.DataFileSaveActivity" />
+        <activity android:name=".ui.VerticalTextViewActivity" />
+        <activity android:name=".TestPermissionActivity" />
+        <activity android:name=".ui.DataBaseTestActivity" />
+        <activity
+            android:name=".ui.WelcomeActivity"
+            android:theme="@style/welcomeTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.DemoOkActivity"></activity>
+        <activity android:name=".ui.AddViewActivity" />
+        <activity android:name=".ui.MyAsyncTaskActivity" />
+        <activity android:name=".ui.PictureCompressTestActivity"></activity>
     </application>
 
 </manifest>

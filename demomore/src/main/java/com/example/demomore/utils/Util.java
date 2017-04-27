@@ -79,6 +79,45 @@ public class Util {
             return "1.0";
     }
 
+
+/**
+ *   将本地文件转化为bitmap对象
+ */
+    public static final float DISPLAY_WIDTH = 200;
+    public static final float DISPLAY_HEIGHT = 200;
+    /**
+     * 从path中获取图片信息
+     * @param path
+     * @return
+     */
+    public static Bitmap decodeBitmap(String path){
+        BitmapFactory.Options op = new BitmapFactory.Options();
+        //inJustDecodeBounds
+        //If set to true, the decoder will return null (no bitmap), but the out…
+        op.inJustDecodeBounds = true;
+        Bitmap bmp = BitmapFactory.decodeFile(path, op); //获取尺寸信息
+        //获取比例大小
+        int wRatio = (int)Math.ceil(op.outWidth/DISPLAY_WIDTH);
+        int hRatio = (int)Math.ceil(op.outHeight/DISPLAY_HEIGHT);
+        //如果超出指定大小，则缩小相应的比例
+        if(wRatio > 1 && hRatio > 1){
+            if(wRatio > hRatio){
+                op.inSampleSize = wRatio;
+            }else{
+                op.inSampleSize = hRatio;
+            }
+        }
+        op.inJustDecodeBounds = false;
+        bmp = BitmapFactory.decodeFile(path, op);
+        return bmp;
+    }
+
+
+    /**
+     *  将给定的view对象转换成bitmap对象
+     * @param view
+     * @return
+     */
     public static Bitmap getBitmapFromView(View view) {
         view.destroyDrawingCache();
         view.measure(MeasureSpec.makeMeasureSpec(0,
@@ -225,7 +264,7 @@ public class Util {
             byte[] buffer = new byte[length];
             fin.read(buffer);
 //            res = EncodingUtils.getString(buffer, "UTF-8");UTF-8
-            res=new String(buffer ,"UTF-8");    //将字节数组转换成字符串并做utf-8转码
+            res = new String(buffer, "UTF-8");    //将字节数组转换成字符串并做utf-8转码
             fin.close();
         } catch (Exception e) {
 
@@ -592,7 +631,7 @@ public class Util {
      */
     public static String getSDCardPath(Context pContext) {
         if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
-            String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/yirenbang/yirenbangImages";
+            String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/yirenbang/com/test";
             File PathDir = new File(path);
             if (!PathDir.exists()) {
                 PathDir.mkdirs();
@@ -624,7 +663,8 @@ public class Util {
 
     /**
      * 删除单个文件
-     * @param   filePath    被删除文件的文件名
+     *
+     * @param filePath 被删除文件的文件名
      * @return 文件删除成功返回true，否则返回false
      */
     public static boolean deleteFile(String filePath) {
@@ -637,8 +677,9 @@ public class Util {
 
     /**
      * 删除文件夹以及目录下的文件
-     * @param   filePath 被删除目录的文件路径
-     * @return  目录删除成功返回true，否则返回false
+     *
+     * @param filePath 被删除目录的文件路径
+     * @return 目录删除成功返回true，否则返回false
      */
     public static boolean deleteDirectory(String filePath) {
         boolean flag = false;
@@ -670,9 +711,10 @@ public class Util {
     }
 
     /**
-     *  根据路径删除指定的目录或文件，无论存在与否
-     *@param filePath  要删除的目录或文件
-     *@return 删除成功返回 true，否则返回 false。
+     * 根据路径删除指定的目录或文件，无论存在与否
+     *
+     * @param filePath 要删除的目录或文件
+     * @return 删除成功返回 true，否则返回 false。
      */
     public static boolean DeleteFolder(String filePath) {
         File file = new File(filePath);
@@ -762,14 +804,9 @@ public class Util {
      * 判断是否为手机号码
      */
     public static boolean checkPhone(String phone) {
-//        p = Pattern.compile("^((13[0-9])|(15[^4,\\D])|(18[0,5-9]))\\d{8}$");
-//        p = Pattern.compile("^((1[0-9]))\\d{9}$");
-//        m = p.matcher(phone);
-//
-//
-//        return m.matches();
-        return true;
-
+        p = Pattern.compile("^1[345678][0-9](\\d{8})$");
+        m = p.matcher(phone);
+        return m.matches();
     }
 
     /**
@@ -779,10 +816,9 @@ public class Util {
      * @return
      */
     public static boolean checkTelePhone(String telePhone) {
-//		p = Pattern.compile("0\\d{2,3}\\d{7,8}");
-//		 m = p.matcher(telePhone);
-//		return m.matches();
-        return true;
+        p = Pattern.compile("0\\d{2,3}\\d{7,8}");
+        m = p.matcher(telePhone);
+        return m.matches();
     }
 
 /*
@@ -794,9 +830,9 @@ public class Util {
             URI uri2 = new URI(url.getProtocol(), url.getHost(), url.getPath(),
                     url.getQuery(), null);
             HttpGet get = new HttpGet(uri2);
-            HttpParams params = get.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 50000);
-            HttpConnectionParams.setSoTimeout(params, 50000);
+            HttpParams ZTHouseHttpClient = get.getParams();
+            HttpConnectionParams.setConnectionTimeout(ZTHouseHttpClient, 50000);
+            HttpConnectionParams.setSoTimeout(ZTHouseHttpClient, 50000);
 
             HttpResponse response = client.execute(get);
             int stateCode = response.getStatusLine().getStatusCode();
@@ -978,7 +1014,13 @@ public class Util {
         BitmapDrawable bd = new BitmapDrawable(bitmap);
         return bd;
     }
-
-
+    /**
+     * 判断密码是否合法
+     */
+    public static boolean checkPassword(String password) {
+        p = Pattern.compile("^([A-Z]|[a-z]|[0-9]|[\\\\\\\\[\\\\\\\\].<>/?~！@#￥%……&*（）——+|{}【】‘；：”“'。，、？]){6,16}$");
+        m = p.matcher(password);
+        return m.matches();
+    }
 
 }
